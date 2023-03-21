@@ -1,0 +1,591 @@
+Population,ID,Sex,Mom_ID,Litter,Treatment,Pred_Tutor,Pred,Tutor_pop,Birth Day,Day,Date,Time,Water,Weight,Run,Latency,Attempts,Notes
+AH,AHF2_1P3G.2.1,dead,AHF2_1P3G,2,pred-/same,pred-/AH,pred-,AH,4-Jan,1,19-Feb,16:00,pred-,0.096,1,50,7,
+AH,AHF2_1P3G.2.1,dead,AHF2_1P3G,2,pred-/same,pred-/AH,pred-,AH,4-Jan,2,20-Feb,15:19,pred+,0.096,1,101,2,day 1 video cut short 
+AH,AHF2_1G4G.3.3,F,AHF2_1G4G,3,pred-/same,pred-/AH,pred-,AH,2-Feb,2,22-Mar,15:47,pred-,0.133,1,16,17,
+AH,AHF2_1G4G.3.3,F,AHF2_1G4G,3,pred-/same,pred-/AH,pred-,AH,2-Feb,1,21-Mar,15:06,pred+,0.133,1,73,99,
+AH,AHF2_1G4G.6.2,F,AHF2_1G4G,6,pred-/same,pred-/AH,pred-,AH,14-Aug,1,29-Sep,15:17,pred-,0.144,1,35,166,first few in middle
+AH,AHF2_1G4G.6.2,F,AHF2_1G4G,6,pred-/same,pred-/AH,pred-,AH,14-Aug,2,30-Sep,15:06,pred+,0.144,1,58,7,
+AH,AHF2_1G4P.2.1,F,AHF2_1G4P,2,pred-/same,pred-/AH,pred-,AH,15-Jan,1,2-Mar,15:30,pred+,0.128,1,39,55,
+AH,AHF2_1G4P.2.1,F,AHF2_1G4P,2,pred-/same,pred-/AH,pred-,AH,15-Jan,2,3-Mar,16:04,pred-,0.128,1,310,72,
+AH,AHF2_1G4P.5.4,F,AHF2_1G4P,5,pred-/same,pred-/AH,pred-,AH,30-Mar,1,15-May,16:18,pred-,0.128,1,194,11,
+AH,AHF2_1G4P.5.4,F,AHF2_1G4P,5,pred-/same,pred-/AH,pred-,AH,30-Mar,2,16-May,9:58,pred+,0.128,1,69,12,
+AH,AHF2_1O3Y.2.2,F,AHF2_1O3Y,2,pred-/same,pred-/AH,pred-,AH,1-Apr,1,NA,NA,pred-,0.088,3,600,0,didn't eat
+AH,AHF2_1O3Y.2.2,F,AHF2_1O3Y,2,pred-/same,pred-/AH,pred-,AH,1-Apr,2,NA,NA,pred+,0.088,NA,NA,NA,not tested
+AH,AHF2_1O3Y.4.7,F,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,1,3-Jul,15:55,pred+,0.135,1,11,5,
+AH,AHF2_1O3Y.4.7,F,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,2,5-Jul,16:40,pred-,0.135,2,68,2,"didn't eat 7/4, s wimming frantically"
+AH,AHF2_1O3Y.5.1,F,AHF2_1O3Y,5,pred-/same,pred-/AH,pred-,AH,10-Jun,1,29-Jul,15:03,pred-,0.106,1,50,131,all at bottom very active may have started sooner pecking in water column but dind't count
+AH,AHF2_1O3Y.5.1,F,AHF2_1O3Y,5,pred-/same,pred-/AH,pred-,AH,10-Jun,2,30-Jul,14:58,pred+,0.106,1,5,44,
+AH,AHF2_1O3Y.5.2,F,AHF2_1O3Y,5,pred-/same,pred-/AH,pred-,AH,10-Jun,1,29-Jul,15:23,pred+,0.109,1,62,3,swimming around a lot
+AH,AHF2_1O3Y.5.2,F,AHF2_1O3Y,5,pred-/same,pred-/AH,pred-,AH,10-Jun,2,30-Jul,14:39,pred-,0.109,1,33,40,first 2 at bottom
+AH,AHF2_1P3G.4.1,F,AHF2_1P3G,4,pred-/same,pred-/AH,pred-,AH,17-Jun,1,2-Aug,16:50,pred+,0.106,1,354,26,
+AH,AHF2_1P3G.4.1,F,AHF2_1P3G,4,pred-/same,pred-/AH,pred-,AH,17-Jun,2,3-Aug,15:03,pred-,0.106,1,43,39,
+AH,AHF2_1P3G.5.10,F,AHF2_1P3G,5,pred-/same,pred-/AH,pred-,AH,11-Jul,1,26-Aug,15:09,pred-,0.114,1,16,2,first peckat bottom
+AH,AHF2_1P3G.5.10,F,AHF2_1P3G,5,pred-/same,pred-/AH,pred-,AH,11-Jul,2,27-Aug,15:06,pred+,0.114,1,12,8,
+AH,AHF2_1P3G.6.1,F,AHF2_1P3G,6,pred-/same,pred-/AH,pred-,AH,6-Aug,1,22-Sep,15:34,pred+,0.135,2,119,8,didn't eat 9/21
+AH,AHF2_1P3G.6.1,F,AHF2_1P3G,6,pred-/same,pred-/AH,pred-,AH,6-Aug,2,23-Sep,16:00,pred-,0.135,1,298,4,
+AH,AHF2_1P3G.6.2,F,AHF2_1P3G,6,pred-/same,pred-/AH,pred-,AH,6-Aug,1,21-Sep,15:18,pred-,0.188,1,127,45,only pecked at middle and at bottom
+AH,AHF2_1P3G.6.2,F,AHF2_1P3G,6,pred-/same,pred-/AH,pred-,AH,6-Aug,2,22-Sep,15:14,pred+,0.188,1,412,32,at top
+AH,AHF2_1Y2G.4.2,F,AHF2_1Y2G,4,pred-/same,pred-/AH,pred-,AH,24-Jul,1,8-Sep,14:17,pred+,0.082,1,160,5,
+AH,AHF2_1Y2G.4.2,F,AHF2_1Y2G,4,pred-/same,pred-/AH,pred-,AH,24-Jul,2,9-Sep,14:59,pred-,0.082,1,96,44,
+AH,AHF2_1Y2P.3.1,F,AHF2_1Y2P,3,pred-/same,pred-/AH,pred-,AH,10-Jan,1,25-Feb,16:10,pred+,0.103,1,147,11,
+AH,AHF2_1Y2P.3.1,F,AHF2_1Y2P,3,pred-/same,pred-/AH,pred-,AH,10-Jan,2,26-Feb,15:26,pred-,0.103,1,34,26,
+AH,AHF2_1Y2P.5.4,F,AHF2_1Y2P,5,pred-/same,pred-/AH,pred-,AH,9-Mar,1,26-Apr,17:09,pred-,0.143,1,23,54,
+AH,AHF2_1Y2P.5.4,F,AHF2_1Y2P,5,pred-/same,pred-/AH,pred-,AH,9-Mar,2,27-Apr,15:26,pred+,0.143,1,15,24,
+AH,AHF2_1Y2P.6.1,F,AHF2_1Y2P,6,pred-/same,pred-/AH,pred-,AH,31-Jul,1,15-Sep,15:47,pred-,0.201,1,47,7,
+AH,AHF2_1Y2P.6.1,F,AHF2_1Y2P,6,pred-/same,pred-/AH,pred-,AH,31-Jul,2,16-Sep,14:45,pred+,0.201,1,215,4,
+AH,AHF2_1Y2P.6.2,F,AHF2_1Y2P,6,pred-/same,pred-/AH,pred-,AH,31-Jul,1,15-Sep,15:52,pred+,0.148,1,59,31,
+AH,AHF2_1Y2P.6.2,F,AHF2_1Y2P,6,pred-/same,pred-/AH,pred-,AH,31-Jul,2,16-Sep,14:52,pred-,0.148,1,368,3,
+AH,AHF2_1Y3O.1.4,F,AHF2_1Y3O,1,pred-/same,pred-/AH,pred-,AH,7-Dec,1,22-Jan,15:17,pred-,0.089,1,46,77,
+AH,AHF2_1Y3O.1.4,F,AHF2_1Y3O,1,pred-/same,pred-/AH,pred-,AH,7-Dec,2,23-Jan,15:00,pred+,0.089,1,40,40,
+AH,AHF2_1Y3O.2.1,F,AHF2_1Y3O,2,pred-/same,pred-/AH,pred-,AH,6-Jan,1,21-Feb,15:42,pred+,0.094,1,53,112,
+AH,AHF2_1Y3O.2.1,F,AHF2_1Y3O,2,pred-/same,pred-/AH,pred-,AH,6-Jan,2,22-Feb,14:30,pred-,0.094,1,78,80,
+AH,AHF2_1Y3O.5.1,F,AHF2_1Y3O,5,pred-/same,pred-/AH,pred-,AH,18-Apr,1,3-Jun,16:00,pred-,0.164,1,82,8,bottom
+AH,AHF2_1Y3O.5.1,F,AHF2_1Y3O,5,pred-/same,pred-/AH,pred-,AH,18-Apr,2,4-Jun,15:33,pred+,0.164,1,74,10,
+AH,AHF2_1Y3O.6.3,F,AHF2_1Y3O,6,pred-/same,pred-/AH,pred-,AH,13-May,1,28-Jun,13:37,pred+,0.146,1,33,86,
+AH,AHF2_1Y3O.6.3,F,AHF2_1Y3O,6,pred-/same,pred-/AH,pred-,AH,13-May,2,29-Jun,15:19,pred-,0.146,1,13,34,
+AH,AHF2_1G4G.2.1,M,AHF2_1G4G,2,pred-/same,pred-/AH,pred-,AH,12-Jan,1,27-Feb,16:13,pred-,0.096,1,482,3,camera malfunction so no day 1 video
+AH,AHF2_1G4G.2.1,M,AHF2_1G4G,2,pred-/same,pred-/AH,pred-,AH,12-Jan,2,28-Feb,15:02,pred+,0.096,1,105,17,
+AH,AHF2_1G4G.6.1,M,AHF2_1G4G,6,pred-/same,pred-/AH,pred-,AH,14-Aug,1,30-Sep,15:48,pred+,0.129,2,130,36,didn't eat 9/29; frantic swimming
+AH,AHF2_1G4G.6.1,M,AHF2_1G4G,6,pred-/same,pred-/AH,pred-,AH,14-Aug,2,1-Oct,14:53,pred-,0.129,1,11,17,top and bottom
+AH,AHF2_1G4P.3.1,M,AHF2_1G4P,3,pred-/same,pred-/AH,pred-,AH,12-Feb,1,6-Apr,17:50,pred-,0.105,1,476,39,
+AH,AHF2_1G4P.3.1,M,AHF2_1G4P,3,pred-/same,pred-/AH,pred-,AH,12-Feb,2,7-Apr,15:00,pred+,0.105,1,522,17,
+AH,AHF2_1G4P.4.1,M,AHF2_1G4P,4,pred-/same,pred-/AH,pred-,AH,8-Mar,1,24-Apr,15:50,pred+,0.1,1,65,33,missing day 1 video 
+AH,AHF2_1G4P.4.1,M,AHF2_1G4P,4,pred-/same,pred-/AH,pred-,AH,8-Mar,2,25-Apr,15:12,pred-,0.1,1,30,53,
+AH,AHF2_1O3Y.2.1,M,AHF2-1O3Y,2,pred-/same,pred-/AH,pred-,AH,1-Apr,1,18-May,15:20,pred+,0.102,2,192,3,
+AH,AHF2_1O3Y.2.1,M,AHF2-1O3Y,2,pred-/same,pred-/AH,pred-,AH,1-Apr,2,19-May,15:08,pred-,0.102,1,230,19,
+AH,AHF2_1O3Y.4.6,M,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,1,3-Jul,15:49,pred+,0.146,1,12,7,
+AH,AHF2_1O3Y.4.6,M,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,2,4-Jul,14:12,pred-,0.146,1,23,2,
+AH,AHF2_1O3Y.4.8,M,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,1,4-Jul,15:06,pred-,0.104,2,137,9,didn't eat 7/3; stayed in small section of tank to eat
+AH,AHF2_1O3Y.4.8,M,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,2,5-Jul,16:57,pred+,0.104,1,32,7,
+AH,AHF2_1O3Y.4.9,M,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,1,3-Jul,15:07,pred-,0.126,1,19,6,last pecks at bottom only first at top
+AH,AHF2_1O3Y.4.9,M,AHF2_1O3Y,4,pred-/same,pred-/AH,pred-,AH,18-May,2,4-Jul,14:34,pred+,0.126,1,136,2,
+AH,AHF2_1Y2G.3.1,M,AHF2_1Y2G,3,pred-/same,pred-/AH,pred-,AH,28-Jun,1,13-Aug,15:03,pred+,0.088,1,180,38,
+AH,AHF2_1Y2G.3.1,M,AHF2_1Y2G,3,pred-/same,pred-/AH,pred-,AH,28-Jun,2,14-Aug,15:06,pred-,0.088,1,37,20,
+AH,AHF2_1Y2G.3.2,M,AHF2_1Y2G,3,pred-/same,pred-/AH,pred-,AH,28-Jun,1,14-Aug,16:15,pred-,0.082,1,10,3,8/13 didn't eat
+AH,AHF2_1Y2G.3.2,M,AHF2_1Y2G,3,pred-/same,pred-/AH,pred-,AH,28-Jun,2,15-Aug,14:25,pred+,0.082,1,90,1,
+AH,AHF2_1Y2G.4.1,M,AHF2_1Y2G,4,pred-/same,pred-/AH,pred-,AH,24-Jul,1,8-Sep,14:25,pred-,0.082,1,126,23,was eating during previous tiral; first at bottom
+AH,AHF2_1Y2G.4.1,M,AHF2_1Y2G,4,pred-/same,pred-/AH,pred-,AH,24-Jul,2,9-Sep,15:22,pred+,0.082,1,117,12,first 3 in middle
+AH,AHF2_1Y3O.4.1,M,AHF2_1Y3O,4,pred-/same,pred-/AH,pred-,AH,23-Mar,1,9-May,16:23,pred+,0.114,1,464,4,
+AH,AHF2_1Y3O.4.1,M,AHF2_1Y3O,4,pred-/same,pred-/AH,pred-,AH,23-Mar,2,10-May,18:09,pred-,0.114,1,183,3,
+AH,AHF2_1Y3O.5.2,M,AHF2_1Y3O,5,pred-/same,pred-/AH,pred-,AH,18-Apr,1,3-Jun,16:07,pred+,0.1,1,60,4,
+AH,AHF2_1Y3O.5.2,M,AHF2_1Y3O,5,pred-/same,pred-/AH,pred-,AH,18-Apr,2,4-Jun,16:24,pred-,0.1,1,22,4,
+AH,AHF2_1Y3O.6.1,M,AHF2_1Y3O,6,pred-/same,pred-/AH,pred-,AH,13-May,1,28-Jun,13:30,pred-,0.108,1,95,17,all at bottom
+AH,AHF2_1Y3O.6.1,M,AHF2_1Y3O,6,pred-/same,pred-/AH,pred-,AH,13-May,2,29-Jun,15:59,pred+,0.108,1,84,28,
+AH,AHF2_1Y3O.7.1,M,AHF2_1Y3O,7,pred-/same,pred-/AH,pred-,AH,8-Jun,1,24-Jul,15:25,pred+,0.108,1,91,92,lots of GS lol
+AH,AHF2_1Y3O.7.1,M,AHF2_1Y3O,7,pred-/same,pred-/AH,pred-,AH,8-Jun,2,25-Jul,15:43,pred-,0.108,1,33,7,
+AH,AHF2_1G4G.6.3,F,AHF2_1G4G,6,pred-/dif,pred-/AL,pred-,AL,14-Aug,1,29-Sep,15:13,pred+,0.124,1,145,19,
+AH,AHF2_1G4G.6.3,F,AHF2_1G4G,6,pred-/dif,pred-/AL,pred-,AL,14-Aug,2,30-Sep,15:42,pred-,0.124,1,60,27,start at middle
+AH,AHF2_1G4P.4.2,F,AHF2_1G4P,4,pred-/dif,pred-/AL,pred-,AL,8-Mar,1,24-Apr,15:40,pred+,0.141,1,158,47,
+AH,AHF2_1G4P.4.2,F,AHF2_1G4P,4,pred-/dif,pred-/AL,pred-,AL,8-Mar,2,25-Apr,15:17,pred-,0.141,1,19,37,bottom and top 
+AH,AHF2_1G4P.5.2,F,AHF2_1G4P,5,pred-/dif,pred-/AL,pred-,AL,30-Mar,1,15-May,16:24,pred-,0.132,1,20,38,
+AH,AHF2_1G4P.5.2,F,AHF2_1G4P,5,pred-/dif,pred-/AL,pred-,AL,30-Mar,2,16-May,22:05,pred+,0.132,1,55,33,
+AH,AHF2_1G4P.5.3,F,AHF2_1G4P,5,pred-/dif,pred-/AL,pred-,AL,30-Mar,1,15-May,15:40,pred+,0.102,1,315,5,redo from 2/17
+AH,AHF2_1G4P.5.3,F,AHF2_1G4P,5,pred-/dif,pred-/AL,pred-,AL,30-Mar,2,16-May,21:30,pred-,0.102,1,118,10,
+AH,AHF2_1O3P.1.4,F,AHF2_1O3P,1,pred-/dif,pred-/AL,pred-,AL,2-Dec,1,18-Feb,15:45,pred+,0.16,2,134,5,
+AH,AHF2_1O3P.1.4,F,AHF2_1O3P,1,pred-/dif,pred-/AL,pred-,AL,2-Dec,2,19-Feb,15:50,pred-,0.16,1,212,3,
+AH,AHF2_1O3P.3.2,F,AHF2_1O3P,3,pred-/dif,pred-/AL,pred-,AL,25-Jan,1,12-Mar,16:15,pred+,0.077,1,154,41,
+AH,AHF2_1O3P.3.2,F,AHF2_1O3P,3,pred-/dif,pred-/AL,pred-,AL,25-Jan,2,13-Mar,15:40,pred-,0.077,1,157,64,didn't eat 7/3
+AH,AHF2_1O3Y.4.10,F,AHF2_1O3Y,4,pred-/dif,pred-/AL,pred-,AL,18-May,1,4-Jul,14:45,pred-,0.086,2,69,4,
+AH,AHF2_1O3Y.4.10,F,AHF2_1O3Y,4,pred-/dif,pred-/AL,pred-,AL,18-May,2,5-Jul,16:51,pred+,0.086,1,59,7,
+AH,AHF2_1O3Y.4.12,F,AHF2_1O3Y,4,pred-/dif,pred-/AL,pred-,AL,18-May,1,3-Jul,15:26,pred+,0.101,1,9,106,
+AH,AHF2_1O3Y.4.12,F,AHF2_1O3Y,4,pred-/dif,pred-/AL,pred-,AL,18-May,2,4-Jul,14:08,pred-,0.101,1,50,60,
+AH,AHF2_1P3G.2.2,F,AHF2_1P3G,2,pred-/dif,pred-/AL,pred-,AL,4-Jan,1,19-Feb,14:06,pred+,0.088,1,122,27,
+AH,AHF2_1P3G.2.2,F,AHF2_1P3G,2,pred-/dif,pred-/AL,pred-,AL,4-Jan,2,20-Feb,15:35,pred-,0.088,1,223,4,at end of 3 min found food at top and began eating lots. Ate from bottom during 2 min
+AH,AHF2_1P3G.5.12,F,AHF2_1P3G,5,pred-/dif,pred-/AL,pred-,AL,11-Jul,1,26-Aug,15:23,pred-,0.148,1,20,13,
+AH,AHF2_1P3G.5.12,F,AHF2_1P3G,5,pred-/dif,pred-/AL,pred-,AL,11-Jul,2,27-Aug,15:19,pred+,0.148,1,21,55,
+AH,AHF2_1P3G.6.3,F,AHF2_1P3G,6,pred-/dif,pred-/AL,pred-,AL,6-Aug,1,21-Sep,15:05,pred+,0.133,1,22,17,
+AH,AHF2_1P3G.6.3,F,AHF2_1P3G,6,pred-/dif,pred-/AL,pred-,AL,6-Aug,2,22-Sep,15:20,pred-,0.133,1,24,14,"top,bottom,middle"
+AH,AHF2_1Y2G.3.4,F,AHF2_1Y2G,3,pred-/dif,pred-/AL,pred-,AL,28-Jun,1,13-Aug,14:10,pred-,0.13,1,451,9,weired open gape swallow in middle of water column day 2 ~6 min; also had weird pecks in the middle of glass; didn't count those in data
+AH,AHF2_1Y2G.3.4,F,AHF2_1Y2G,3,pred-/dif,pred-/AL,pred-,AL,28-Jun,2,14-Aug,14:08,pred+,0.13,1,318,24,
+AH,AHF2_1Y2G.3.5,F,AHF2_1Y2G,3,pred-/dif,pred-/AL,pred-,AL,28-Jun,1,15-Aug,14:19,pred+,0.129,1,74,7,"didn’t eat 8/13, 8/14 "
+AH,AHF2_1Y2G.3.5,F,AHF2_1Y2G,3,pred-/dif,pred-/AL,pred-,AL,28-Jun,2,16-Aug,15:08,pred-,0.129,1,565,19,
+AH,AHF2_1Y2G.4.3,F,AHF2_1Y2G,4,pred-/dif,pred-/AL,pred-,AL,24-Jul,1,8-Sep,14:11,pred+,0.136,1,28,11,
+AH,AHF2_1Y2G.4.3,F,AHF2_1Y2G,4,pred-/dif,pred-/AL,pred-,AL,24-Jul,2,9-Sep,15:05,pred-,0.136,1,81,30,
+AH,AHF2_1Y2G.4.4,F,AHF2_1Y2G,4,pred-/dif,pred-/AL,pred-,AL,24-Jul,1,8-Sep,14:06,pred-,0.161,1,15,83,
+AH,AHF2_1Y2G.4.4,F,AHF2_1Y2G,4,pred-/dif,pred-/AL,pred-,AL,24-Jul,2,9-Sep,15:14,pred+,0.161,1,282,1,
+AH,AHF2_1Y2P.4.1,F,AHF2_1Y2P,4,pred-/dif,pred-/AL,pred-,AL,2-Feb,1,21-Mar,16:00,pred-,0.099,1,144,6,
+AH,AHF2_1Y2P.4.1,F,AHF2_1Y2P,4,pred-/dif,pred-/AL,pred-,AL,2-Feb,2,22-Mar,15:15,pred+,0.099,1,25,70,consider excluding latency because 2 numbers are written in data sheet (1:18 and 43)
+AH,AHF2_1Y3O.2.2,F,AHF2_1Y3O,2,pred-/dif,pred-/AL,pred-,AL,6-Jan,1,21-Feb,15:56,pred-,0.106,1,11,118,
+AH,AHF2_1Y3O.2.2,F,AHF2_1Y3O,2,pred-/dif,pred-/AL,pred-,AL,6-Jan,2,22-Feb,14:35,pred+,0.106,1,43,8,
+AH,AHF2_1Y3O.3.2,F,AHF2_1Y3O,3,pred-/dif,pred-/AL,pred-,AL,1-Mar,1,16-Apr,18:07,pred-,0.135,1,58,22,
+AH,AHF2_1Y3O.3.2,F,AHF2_1Y3O,3,pred-/dif,pred-/AL,pred-,AL,1-Mar,2,17-Apr,16:17,pred+,0.135,1,95,28,
+AH,AHF2_1Y3O.5.4,F,AHF2_1Y3O,5,pred-/dif,pred-/AL,pred-,AL,18-Apr,1,3-Jun,16:17,pred-,0.133,1,18,14,
+AH,AHF2_1Y3O.5.4,F,AHF2_1Y3O,5,pred-/dif,pred-/AL,pred-,AL,18-Apr,2,4-Jun,15:52,pred+,0.133,1,31,1,
+AH,AHF2_1Y3O.6.4,F,AHF2_1Y3O,6,pred-/dif,pred-/AL,pred-,AL,13-May,1,28-Jun,13:42,pred-,0.146,1,8,59,
+AH,AHF2_1Y3O.6.4,F,AHF2_1Y3O,6,pred-/dif,pred-/AL,pred-,AL,13-May,2,29-Jun,16:04,pred+,0.146,1,7,28,moved really slowly 
+AH,AHF2_1Y3O.6.5,F,AHF2_1Y3O,6,pred-/dif,pred-/AL,pred-,AL,13-May,1,28-Jun,13:50,pred+,0.124,1,167,3,
+AH,AHF2_1Y3O.6.5,F,AHF2_1Y3O,6,pred-/dif,pred-/AL,pred-,AL,13-May,2,29-Jun,15:24,pred-,0.124,1,38,46,
+AH,AHF2_1G4G.3.1,M,AHF2_1G4G,3,pred-/dif,pred-/AL,pred-,AL,2-Feb,1,21-Mar,15:54,pred-,0.097,1,35,163,redone from 2/6
+AH,AHF2_1G4G.3.1,M,AHF2_1G4G,3,pred-/dif,pred-/AL,pred-,AL,2-Feb,2,22-Mar,15:11,pred+,0.097,1,20,58,
+AH,AHF2_1G4G.6.4,M,AHF2_1G4G,6,pred-/dif,pred-/AL,pred-,AL,14-Aug,1,29-Sep,15:23,pred-,0.1,1,120,5,
+AH,AHF2_1G4G.6.4,M,AHF2_1G4G,6,pred-/dif,pred-/AL,pred-,AL,14-Aug,2,30-Sep,15:12,pred+,0.1,1,78,4,
+AH,AHF2_1G4G.6.5,M,AHF2_1G4G,6,pred-/dif,pred-/AL,pred-,AL,14-Aug,1,29-Sep,15:29,pred-,0.109,1,125,5,
+AH,AHF2_1G4G.6.5,M,AHF2_1G4G,6,pred-/dif,pred-/AL,pred-,AL,14-Aug,2,30-Sep,15:16,pred+,0.109,1,20,12,
+AH,AHF2_1G4O.1.1,M,AHF2_1G4O,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,1,7-Feb,15:30,pred-,0.082,2,354,54,
+AH,AHF2_1G4O.1.1,M,AHF2_1G4O,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,2,8-Feb,15:15,pred+,0.082,1,489,5,
+AH,AHF2_1G4O.1.2,M,AHF2_1G4O,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,1,7-Feb,15:43,pred+,0.065,2,282,6,
+AH,AHF2_1G4O.1.2,M,AHF2_1G4O,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,2,8-Feb,15:26,pred-,0.065,1,51,17,
+AH,AHF2_1G4P.3.2,M,AHF2_1G4P,3,pred-/dif,pred-/AL,pred-,AL,12-Feb,1,6-Apr,17:33,pred+,0.108,1,37,14,
+AH,AHF2_1G4P.3.2,M,AHF2_1G4P,3,pred-/dif,pred-/AL,pred-,AL,12-Feb,2,7-Apr,14:50,pred-,0.108,1,18,3,mostly on floor
+AH,AHF2_1O3P.1.3,M,AHF2_1O3P,1,pred-/dif,pred-/AL,pred-,AL,2-Dec,1,17-Feb,NA,pred+,0.13,NA,15,4,not clear if redone
+AH,AHF2_1O3P.1.3,M,AHF2_1O3P,1,pred-/dif,pred-/AL,pred-,AL,2-Dec,2,18-Feb,NA,pred-,0.13,NA,14,67,
+AH,AHf2_1O3Y.1.1,M,AHf2_1O3Y,1,pred-/dif,pred-/AL,pred-,AL,9-Mar,1,26-Apr,17:14,pred-,0.098,1,87,71,
+AH,AHf2_1O3Y.1.1,M,AHf2_1O3Y,1,pred-/dif,pred-/AL,pred-,AL,9-Mar,2,27-Apr,15:19,pred+,0.098,1,25,27,
+AH,AHF2_1O3Y.2.3,M,AHF2_1O3Y,2,pred-/dif,pred-/AL,pred-,AL,1-Apr,1,17-May,15:35,pred-,0.096,1,5,24,
+AH,AHF2_1O3Y.2.3,M,AHF2_1O3Y,2,pred-/dif,pred-/AL,pred-,AL,1-Apr,2,18-May,15:15,pred+,0.096,1,39,2,
+AH,AHF2_1O3Y.4.11,M,AHF2_1O3Y,4,pred-/dif,pred-/AL,pred-,AL,18-May,1,3-Jul,15:21,pred+,0.126,1,14,76,
+AH,AHF2_1O3Y.4.11,M,AHF2_1O3Y,4,pred-/dif,pred-/AL,pred-,AL,18-May,2,4-Jul,15:48,pred-,0.126,1,448,10,
+AH,AHF2_1O3Y.5.16,M,AHF2_1O3Y,5,pred-/dif,pred-/AL,pred-,AL,10-Jun,1,27-Jul,14:19,pred-,0.105,1,88,3,
+AH,AHF2_1O3Y.5.16,M,AHF2_1O3Y,5,pred-/dif,pred-/AL,pred-,AL,10-Jun,2,28-Jul,15:42,pred+,0.105,1,48,6,
+AH,AHF2_1O3Y.5.17,M,AHF2_1O3Y,5,pred-/dif,pred-/AL,pred-,AL,10-Jun,1,28-Jul,15:13,pred-,0.091,2,139,30,didn't eat 7/27
+AH,AHF2_1O3Y.5.17,M,AHF2_1O3Y,5,pred-/dif,pred-/AL,pred-,AL,10-Jun,2,29-Jul,14:44,pred+,0.091,1,84,15,
+AH,AHF2_1O3Y.5.4,M,AHF2_1O3Y,5,pred-/dif,pred-/AL,pred-,AL,10-Jun,1,27-Jul,14:54,pred-,0.098,1,344,5,
+AH,AHF2_1O3Y.5.4,M,AHF2_1O3Y,5,pred-/dif,pred-/AL,pred-,AL,10-Jun,2,28-Jul,15:51,pred+,0.098,1,246,6,
+AH,AHF2_1P3G.6.5,M,AHF2_1P3G,6,pred-/dif,pred-/AL,pred-,AL,6-Aug,1,21-Sep,15:30,pred-,0.128,1,480,23,
+AH,AHF2_1P3G.6.5,M,AHF2_1P3G,6,pred-/dif,pred-/AL,pred-,AL,6-Aug,2,22-Sep,15:28,pred+,0.128,1,257,3,
+AH,AHF2_1Y2P.6.3,M,AHF2_1Y2P,6,pred-/dif,pred-/AL,pred-,AL,31-Jul,1,15-Sep,15:57,pred-,0.097,1,19,28,
+AH,AHF2_1Y2P.6.3,M,AHF2_1Y2P,6,pred-/dif,pred-/AL,pred-,AL,31-Jul,2,16-Sep,14:30,pred+,0.097,1,65,28,
+AH,AHF2_1Y3O.4.3,M,AHF2_1Y3O,4,pred-/dif,pred-/AL,pred-,AL,23-Mar,1,9-May,16:19,pred+,0.095,1,14,161,bottom
+AH,AHF2_1Y3O.4.3,M,AHF2_1Y3O,4,pred-/dif,pred-/AL,pred-,AL,23-Mar,2,10-May,17:43,pred-,0.095,1,3,8,bottom
+AH,AHF2_1Y3O.5.3,M,AHF2_1Y3O,5,pred-/dif,pred-/AL,pred-,AL,18-Apr,1,3-Jun,15:55,pred+,0.118,1,124,7,redone from 2/6; cut off at 10 min
+AH,AHF2_1Y3O.5.3,M,AHF2_1Y3O,5,pred-/dif,pred-/AL,pred-,AL,18-Apr,2,4-Jun,16:18,pred-,0.118,1,474,1,
+AH,AHF2_1Y3Y.1.1,M,AHF2_1Y3Y,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,1,7-Feb,15:53,pred+,0.09,2,600,0,didn't eat 
+AH,AHF2_1Y3Y.1.1,M,AHF2_1Y3Y,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,2,8-Feb,15:33,pred-,0.09,1,136,3,redone from 2/6
+AH,AHF2_1Y3Y.1.2,M,AHF2_1Y3Y,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,1,7-Feb,16:07,pred-,0.082,2,47,21,all pecking at floor
+AH,AHF2_1Y3Y.1.2,M,AHF2_1Y3Y,1,pred-/dif,pred-/AL,pred-,AL,22-Dec,2,8-Feb,15:40,pred+,0.082,1,190,6,
+AH,AHF2_1G3P4Y.5.1,F,AHF2_1G3P4Y,5,pred+/same,pred+/AH,pred+,AH,28-Jul,1,14-Sep,15:00,pred-,0.178,1,12,4,
+AH,AHF2_1G3P4Y.5.1,F,AHF2_1G3P4Y,5,pred+/same,pred+/AH,pred+,AH,28-Jul,2,15-Sep,16:01,pred+,0.178,1,12,89,
+AH,AHF2_1G4G.6.6,F,AHF2_1G4G,6,pred+/same,pred+/AH,pred+,AH,14-Aug,1,29-Sep,16:01,pred+,0.151,1,6,27,
+AH,AHF2_1G4G.6.6,F,AHF2_1G4G,6,pred+/same,pred+/AH,pred+,AH,14-Aug,2,30-Sep,15:31,pred-,0.151,1,88,28,
+AH,AHF2_1G4G.6.7,F,AHF2_1G4G,6,pred+/same,pred+/AH,pred+,AH,14-Aug,1,29-Sep,16:08,pred-,0.178,1,116,77,bottom and top 
+AH,AHF2_1G4G.6.7,F,AHF2_1G4G,6,pred+/same,pred+/AH,pred+,AH,14-Aug,2,30-Sep,15:25,pred+,0.178,1,220,3,bottom
+AH,AHF2_1G4P.2.3,F,AHF2_1G4P,2,pred+/same,pred+/AH,pred+,AH,15-Jan,1,2-Mar,15:35,pred-,0.103,1,101,30,
+AH,AHF2_1G4P.2.3,F,AHF2_1G4P,2,pred+/same,pred+/AH,pred+,AH,15-Jan,2,3-Mar,15:52,pred+,0.103,1,421,2,
+AH,AHF2_1G4P.3.3,F,AHF2_1G4P,3,pred+/same,pred+/AH,pred+,AH,12-Feb,1,6-Apr,17:42,pred+,0.147,1,31,38,
+AH,AHF2_1G4P.3.3,F,AHF2_1G4P,3,pred+/same,pred+/AH,pred+,AH,12-Feb,2,7-Apr,14:55,pred-,0.147,1,17,2,
+AH,AHF2_1O3Y.1.5,F,AHF2_1O3Y,1,pred+/same,pred+/AH,pred+,AH,9-Mar,1,26-Apr,17:00,pred+,0.105,1,202,28,
+AH,AHF2_1O3Y.1.5,F,AHF2_1O3Y,1,pred+/same,pred+/AH,pred+,AH,9-Mar,2,27-Apr,14:58,pred-,0.105,1,106,13,
+AH,AHF2_1O3Y.2.4,F,AHF2-1O3Y,2,pred+/same,pred+/AH,pred+,AH,1-Apr,1,17-May,15:53,pred+,0.128,1,9,33,
+AH,AHF2_1O3Y.2.4,F,AHF2-1O3Y,2,pred+/same,pred+/AH,pred+,AH,1-Apr,2,19-May,15:13,pred-,0.128,2,21,6,
+AH,AHF2_1O3Y.4.1,F,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,1,3-Jul,14:43,pred-,0.114,1,222,36,
+AH,AHF2_1O3Y.4.1,F,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,2,4-Jul,14:22,pred+,0.114,1,47,9,
+AH,AHF2_1O3Y.4.4,F,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,1,3-Jul,14:15,pred+,0.133,1,51,2,
+AH,AHF2_1O3Y.4.4,F,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,2,4-Jul,15:36,pred-,0.133,1,44,3,
+AH,AHF2_1O3Y.5.7,F,AHF2_1O3Y,5,pred+/same,pred+/AH,pred+,AH,10-Jun,1,29-Jul,15:40,pred+,0.134,1,30,31,
+AH,AHF2_1O3Y.5.7,F,AHF2_1O3Y,5,pred+/same,pred+/AH,pred+,AH,10-Jun,2,30-Jul,14:33,pred-,0.134,1,18,98,
+AH,AHF2_1P3G.1.3,F,AHF2_1P3G,1,pred+/same,pred+/AH,pred+,AH,14-Dec,1,29-Jan,15:15,pred+,0.072,1,314,8,
+AH,AHF2_1P3G.1.3,F,AHF2_1P3G,1,pred+/same,pred+/AH,pred+,AH,14-Dec,2,30-Jan,15:32,pred-,0.072,1,187,5,
+AH,AHF2_1P3G.5.5,F,AHF2_1P3G,5,pred+/same,pred+/AH,pred+,AH,11-Jul,1,26-Aug,15:05,pred+,0.144,1,11,13,all but first peck at glass
+AH,AHF2_1P3G.5.5,F,AHF2_1P3G,5,pred+/same,pred+/AH,pred+,AH,11-Jul,2,27-Aug,15:22,pred-,0.144,1,7,36,
+AH,AHF2_1P3G.5.6,F,AHF2_1P3G,5,pred+/same,pred+/AH,pred+,AH,11-Jul,1,26-Aug,15:19,pred-,0.175,1,31,275,saw pecking before trial even started
+AH,AHF2_1P3G.5.6,F,AHF2_1P3G,5,pred+/same,pred+/AH,pred+,AH,11-Jul,2,27-Aug,15:14,pred+,0.175,1,11,66,
+AH,AHF2_1Y2G.4.5,F,AHF2_1Y2G,4,pred+/same,pred+/AH,pred+,AH,24-Jul,1,8-Sep,14:49,pred+,0.125,1,155,122,
+AH,AHF2_1Y2G.4.5,F,AHF2_1Y2G,4,pred+/same,pred+/AH,pred+,AH,24-Jul,2,9-Sep,15:50,pred-,0.125,1,20,91,
+AH,AHF2_1Y2G.4.6,F,AHF2_1Y2G,4,pred+/same,pred+/AH,pred+,AH,24-Jul,1,8-Sep,14:37,pred-,0.121,1,115,65,
+AH,AHF2_1Y2G.4.6,F,AHF2_1Y2G,4,pred+/same,pred+/AH,pred+,AH,24-Jul,2,9-Sep,15:39,pred+,0.121,1,27,26,
+AH,AHF2_1Y2P.6.6,F,AHF2_1Y2P,6,pred+/same,pred+/AH,pred+,AH,31-Jul,1,15-Sep,15:33,pred+,0.159,1,16,12,all at bottom
+AH,AHF2_1Y2P.6.6,F,AHF2_1Y2P,6,pred+/same,pred+/AH,pred+,AH,31-Jul,2,16-Sep,15:00,pred-,0.159,1,22,126,
+AH,AHF2_1Y3O.2.4,F,AHF2_1Y3O,2,pred+/same,pred+/AH,pred+,AH,6-Jan,1,21-Feb,16:01,pred-,0.112,1,3,185,
+AH,AHF2_1Y3O.2.4,F,AHF2_1Y3O,2,pred+/same,pred+/AH,pred+,AH,6-Jan,2,22-Feb,15:09,pred+,0.112,1,5,80,
+AH,AHF2_1Y3O.4.5,F,AHF2_1Y3O,4,pred+/same,pred+/AH,pred+,AH,23-Mar,1,9-May,16:19,pred+,0.138,1,45,91,
+AH,AHF2_1Y3O.4.5,F,AHF2_1Y3O,4,pred+/same,pred+/AH,pred+,AH,23-Mar,2,10-May,NA,pred-,0.138,1,40,45,
+AH,AHF2_1Y3O.5.6,F,AHF2_1Y3O,5,pred+/same,pred+/AH,pred+,AH,18-Apr,1,3-Jun,16:26,pred+,0.136,1,10,97,
+AH,AHF2_1Y3O.5.6,F,AHF2_1Y3O,5,pred+/same,pred+/AH,pred+,AH,18-Apr,2,4-Jun,16:05,pred-,0.136,1,31,17,
+AH,AHF2_1Y3O.5.7,F,AHF2_1Y3O,5,pred+/same,pred+/AH,pred+,AH,18-Apr,1,3-Jun,16:12,pred-,0.151,1,19,170,couldn't see bottom of tank well; could have missed a handful of bottom pecks 
+AH,AHF2_1Y3O.5.7,F,AHF2_1Y3O,5,pred+/same,pred+/AH,pred+,AH,18-Apr,2,4-Jun,15:44,pred+,0.151,1,211,3,
+AH,AHF2_1Y3O.6.11,F,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,1,28-Jun,14:17,pred-,0.148,1,22,18,
+AH,AHF2_1Y3O.6.11,F,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,2,29-Jun,16:16,pred+,0.148,1,24,29,first peck at bottom; didn't eat 6/28
+AH,AHF2_1Y3O.6.8,F,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,1,29-Jun,16:11,pred+,0.171,2,145,25,weight 15 days after assay
+AH,AHF2_1Y3O.6.8,F,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,2,30-Jun,14:10,pred-,0.171,1,20,34,"may have pecked a couple of tiems at bottombut couldn't see, spent most of time swimming up and down walls"
+AH,AHF2_1Y3O.6.9,F,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,1,28-Jun,14:23,pred+,0.101,1,60,11,
+AH,AHF2_1Y3O.6.9,F,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,2,29-Jun,15:38,pred-,0.101,1,170,2,
+AH,AHF2_1Y3O.7.3,F,AHF2_1Y3O,7,pred+/same,pred+/AH,pred+,AH,8-Jun,1,24-Jul,15:30,pred+,0.243,1,13,131,
+AH,AHF2_1Y3O.7.3,F,AHF2_1Y3O,7,pred+/same,pred+/AH,pred+,AH,8-Jun,2,25-Jul,15:38,pred-,0.243,1,86,3,
+AH,AHF2_1G4G.1.6,M,AHF2_1G4G,1,pred+/same,pred+/AH,pred+,AH,11-Dec,1,26-Jan,14:28,pred+,0.077,1,122,17,
+AH,AHF2_1G4G.1.6,M,AHF2_1G4G,1,pred+/same,pred+/AH,pred+,AH,11-Dec,2,27-Jan,15:30,pred-,0.077,1,94,8,
+AH,AHF2_1G4G.2.3,M,AHF2_1G4G,2,pred+/same,pred+/AH,pred+,AH,12-Jan,1,27-Feb,15:44,pred+,0.077,1,17,77,
+AH,AHF2_1G4G.2.3,M,AHF2_1G4G,2,pred+/same,pred+/AH,pred+,AH,12-Jan,2,28-Feb,15:28,pred-,0.077,1,18,34,
+AH,AHF2_1G4P.5.1,M,AHF2_1G4P,5,pred+/same,pred+/AH,pred+,AH,30-Mar,1,15-May,15:47,pred+,0.109,1,17,1,
+AH,AHF2_1G4P.5.1,M,AHF2_1G4P,5,pred+/same,pred+/AH,pred+,AH,30-Mar,2,16-May,21:35,pred-,0.109,1,10,16,swimming frantically
+AH,AHF2_1O3Y.2.5,M,AHF2_1O3Y,2,pred+/same,pred+/AH,pred+,AH,1-Apr,1,17-May,15:30,pred-,0.125,1,36,34,
+AH,AHF2_1O3Y.2.5,M,AHF2_1O3Y,2,pred+/same,pred+/AH,pred+,AH,1-Apr,2,18-May,15:09,pred+,0.125,1,10,2,several gonopodium swings
+AH,AHF2_1O3Y.4.2,M,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,1,3-Jul,14:09,pred+,0.101,1,14,37,
+AH,AHF2_1O3Y.4.2,M,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,2,4-Jul,15:31,pred-,0.101,1,42,1,
+AH,AHF2_1O3Y.4.3,M,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,1,3-Jul,14:49,pred-,0.11,1,35,7,
+AH,AHF2_1O3Y.4.3,M,AHF2_1O3Y,4,pred+/same,pred+/AH,pred+,AH,18-May,2,4-Jul,14:27,pred+,0.11,1,8,2,
+AH,AHF2_1P3G.4.2,M,AHF2_1P3G,4,pred+/same,pred+/AH,pred+,AH,17-Jun,1,2-Aug,16:44,pred-,0.097,1,14,21,
+AH,AHF2_1P3G.4.2,M,AHF2_1P3G,4,pred+/same,pred+/AH,pred+,AH,17-Jun,2,3-Aug,14:50,pred+,0.097,1,571,11,
+AH,AHF2_1Y2G.2.1,M,AHF2_1Y2G,2,pred+/same,pred+/AH,pred+,AH,25-Dec,1,9-Feb,15:15,pred+,0.076,1,484,2,
+AH,AHF2_1Y2G.2.1,M,AHF2_1Y2G,2,pred+/same,pred+/AH,pred+,AH,25-Dec,2,10-Feb,15:15,pred-,0.076,1,154,82,
+AH,AHF2_1Y2G.3.10,M,AHF2_1Y2G,3,pred+/same,pred+/AH,pred+,AH,28-Jun,1,13-Aug,16:07,pred-,0.104,1,245,3,
+AH,AHF2_1Y2G.3.10,M,AHF2_1Y2G,3,pred+/same,pred+/AH,pred+,AH,28-Jun,2,14-Aug,16:02,pred+,0.104,1,41,5, frantic swimming
+AH,AHF2_1Y2G.3.9,M,AHF2_1Y2G,3,pred+/same,pred+/AH,pred+,AH,28-Jun,1,13-Aug,15:10,pred+,0.083,1,156,5,
+AH,AHF2_1Y2G.3.9,M,AHF2_1Y2G,3,pred+/same,pred+/AH,pred+,AH,28-Jun,2,14-Aug,15:01,pred-,0.083,1,96,9,
+AH,AHF2_1Y2P.5.1,M,AHF2_1Y2P,5,pred+/same,pred+/AH,pred+,AH,3-Mar,1,18-Apr,15:20,pred-,0.115,1,20,85,
+AH,AHF2_1Y2P.5.1,M,AHF2_1Y2P,5,pred+/same,pred+/AH,pred+,AH,3-Mar,2,19-Apr,15:22,pred+,0.115,1,13,9,all at bottom
+AH,AHF2_1Y3O.1.3,M,AHF2_1Y3O,1,pred+/same,pred+/AH,pred+,AH,7-Dec,1,22-Jan,15:10,pred-,0.09,1,25,34,
+AH,AHF2_1Y3O.1.3,M,AHF2_1Y3O,1,pred+/same,pred+/AH,pred+,AH,7-Dec,2,23-Jan,14:50,pred+,0.09,1,148,34,
+AH,AHF2_1Y3O.6.10,M,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,1,28-Jun,14:10,pred-,0.076,1,50,19,
+AH,AHF2_1Y3O.6.10,M,AHF2_1Y3O,6,pred+/same,pred+/AH,pred+,AH,13-May,2,29-Jun,15:53,pred+,0.076,1,555,13,
+AH,AHF2_1G3G.3.1,F,AHF2_1G3G,3,pred+/dif,pred+/AL,pred+,AL,10-Jan,1,25-Feb,16:17,pred+,0.028,1,553,3,
+AH,AHF2_1G3G.3.1,F,AHF2_1G3G,3,pred+/dif,pred+/AL,pred+,AL,10-Jan,2,26-Feb,15:15,pred-,0.028,1,283,4,pecks at the bottom
+AH,AHF2_1G4G.1.5,F,AHF2_1G4G,1,pred+/dif,pred+/AL,pred+,AL,25-Dec,1,26-Jan,14:35,pred+,0.074,1,193,45,
+AH,AHF2_1G4G.1.5,F,AHF2_1G4G,1,pred+/dif,pred+/AL,pred+,AL,25-Dec,2,27-Jan,15:40,pred-,0.074,1,128,8,
+AH,AHF2_1G4G.6.9,F,AHF2_1G4G,6,pred+/dif,pred+/AL,pred+,AL,14-Aug,1,29-Sep,15:35,pred+,0.094,1,100,26,
+AH,AHF2_1G4G.6.9,F,AHF2_1G4G,6,pred+/dif,pred+/AL,pred+,AL,14-Aug,2,30-Sep,15:40,pred-,0.094,1,22,34,
+AH,AHF2_1G4O.5.1,F,AHF2_1G4O,5,pred+/dif,pred+/AL,pred+,AL,24-Mar,1,10-May,17:14,pred+,0.147,2,64,11,
+AH,AHF2_1G4O.5.1,F,AHF2_1G4O,5,pred+/dif,pred+/AL,pred+,AL,24-Mar,2,11-May,15:20,pred-,0.147,1,157,5,"mirecorded as 1G4G.5.1, but actually 1G4O.5.1"
+AH,AHF2_1O3Y.2.6,F,AHF2_1O3Y,2,pred+/dif,pred+/AL,pred+,AL,1-Apr,1,17-May,15:59,pred+,0.13,1,24,53,
+AH,AHF2_1O3Y.2.6,F,AHF2_1O3Y,2,pred+/dif,pred+/AL,pred+,AL,1-Apr,2,18-May,15:45,pred-,0.13,1,227,4,bottom
+AH,AHF2_1O3Y.3.2,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,1,10-Jun,15:25,pred-,0.121,1,29,13,
+AH,AHF2_1O3Y.3.2,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,2,11-Jun,17:17,pred+,0.121,1,14,42,at some at bottom
+AH,AHF2_1O3Y.3.3,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,1,10-Jun,15:18,pred-,0.133,1,366,7,
+AH,AHF2_1O3Y.3.3,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,2,11-Jun,17:25,pred+,0.133,1,22,48,
+AH,AHF2_1O3Y.3.4,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,1,10-Jun,15:35,pred+,0.123,1,15,4,
+AH,AHF2_1O3Y.3.4,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,2,11-Jun,17:11,pred-,0.123,1,561,1,
+AH,AHF2_1O3Y.3.5,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,1,10-Jun,15:51,pred+,0.164,1,92,15,
+AH,AHF2_1O3Y.3.5,F,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,2,12-Jun,17:32,pred-,0.164,2,164,5,
+AH,AHF2_1O3Y.5.10,F,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,1,29-Jul,15:08,pred-,0.136,1,14,10,very active
+AH,AHF2_1O3Y.5.10,F,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,2,30-Jul,14:19,pred+,0.136,1,20,10,
+AH,AHF2_1O3Y.5.11,F,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,1,29-Jul,15:13,pred-,0.128,1,16,153,
+AH,AHF2_1O3Y.5.11,F,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,2,30-Jul,14:48,pred+,0.128,1,30,115,
+AH,AHF2_1O3Y.5.9,F,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,1,29-Jul,15:17,pred+,0.149,1,16,57,
+AH,AHF2_1O3Y.5.9,F,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,2,30-Jul,14:44,pred-,0.149,1,10,26,
+AH,AHF2_1Y2G.3.12,F,AHF2_1Y2G,3,pred+/dif,pred+/AL,pred+,AL,28-Jun,1,14-Aug,15:23,pred+,0.134,2,71,5,all at bottom; 8/13 didn't eat
+AH,AHF2_1Y2G.3.12,F,AHF2_1Y2G,3,pred+/dif,pred+/AL,pred+,AL,28-Jun,2,15-Aug,14:36,pred-,0.134,1,123,12,all at bottom
+AH,AHF2_1Y2G.3.13,F,AHF2_1Y2G,3,pred+/dif,pred+/AL,pred+,AL,28-Jun,1,14-Aug,16:09,pred-,0.134,2,55,34,8/13 maybe doing weird pecks moving to fast to discern 
+AH,AHF2_1Y2G.3.13,F,AHF2_1Y2G,3,pred+/dif,pred+/AL,pred+,AL,28-Jun,2,15-Aug,14:29,pred+,0.134,1,21,86,all at bottom or middle of water column 
+AH,AHF2_1Y2G.4.7,F,AHF2_1Y2G,4,pred+/dif,pred+/AL,pred+,AL,24-Jul,1,8-Sep,14:43,pred-,0.1,1,86,137,
+AH,AHF2_1Y2G.4.7,F,AHF2_1Y2G,4,pred+/dif,pred+/AL,pred+,AL,24-Jul,2,NA,NA,pred+,0.1,3,600,0,"didn't eat 9/9, 9/10, 9/11"
+AH,AHF2_1Y2G.4.8,F,AHF2_1Y2G,4,pred+/dif,pred+/AL,pred+,AL,24-Jul,1,8-Sep,14:31,pred+,0.115,1,88,5,
+AH,AHF2_1Y2G.4.8,F,AHF2_1Y2G,4,pred+/dif,pred+/AL,pred+,AL,24-Jul,2,9-Sep,15:44,pred-,0.115,1,34,13,
+AH,AHF2_1Y3O.2.5,F,AHF2_1Y3O,2,pred+/dif,pred+/AL,pred+,AL,6-Jan,1,21-Feb,15:49,pred+,0.091,1,148,77,
+AH,AHF2_1Y3O.2.5,F,AHF2_1Y3O,2,pred+/dif,pred+/AL,pred+,AL,6-Jan,2,22-Feb,14:44,pred-,0.091,1,426,8,
+AH,AHF2_1Y3O.6.14,F,AHF2_1Y3O,6,pred+/dif,pred+/AL,pred+,AL,13-May,1,28-Jun,13:57,pred-,0.12,1,132,65,
+AH,AHF2_1Y3O.6.14,F,AHF2_1Y3O,6,pred+/dif,pred+/AL,pred+,AL,13-May,2,29-Jun,16:21,pred+,0.12,1,8,174,
+AH,AHF2_1Y3O.7.5,F,AHF2_1Y3O,7,pred+/dif,pred+/AL,pred+,AL,8-Jun,1,24-Jul,15:40,pred+,0.127,1,151,204,"in the water column, then surface "
+AH,AHF2_1Y3O.7.5,F,AHF2_1Y3O,7,pred+/dif,pred+/AL,pred+,AL,8-Jun,2,25-Jul,15:32,pred-,0.127,1,374,4,
+AH,AHF2_1G4G.2.4,M,AHF2_1G4G,2,pred+/dif,pred+/AL,pred+,AL,12-Jan,1,27-Feb,16:30,pred-,0.097,1,57,8,
+AH,AHF2_1G4G.2.4,M,AHF2_1G4G,2,pred+/dif,pred+/AL,pred+,AL,12-Jan,2,28-Feb,14:56,pred+,0.097,1,21,24,
+AH,AHF2_1G4P.5.5,M,AHF2_1G4P,5,pred+/dif,pred+/AL,pred+,AL,30-Mar,1,16-May,21:51,pred-,0.095,2,20,27,
+AH,AHF2_1G4P.5.5,M,AHF2_1G4P,5,pred+/dif,pred+/AL,pred+,AL,30-Mar,2,17-May,14:35,pred+,0.095,1,12,4,
+AH,AHF2_1P3G.2.4,M,AHF2_1P3G,2,pred+/dif,pred+/AL,pred+,AL,4-Jan,1,19-Feb,16:13,pred+,0.063,1,4,25,"I think the id was mispelled on data sheet since looking at videos suggests so; the correct ID is 1P3G.2.4, but what was written on the data sheet was AHF2_1O3P.2.4"
+AH,AHF2_1P3G.2.4,M,AHF2_1P3G,2,pred+/dif,pred+/AL,pred+,AL,4-Jan,2,20-Feb,15:25,pred-,0.063,1,42,1,
+AH,AHF2_1O3Y.1.4,M,AHF2_1O3Y,1,pred+/dif,pred+/AL,pred+,AL,9-Mar,1,26-Apr,17:20,pred-,0.093,1,80,14,some pecks at end on bottom
+AH,AHF2_1O3Y.1.4,M,AHF2_1O3Y,1,pred+/dif,pred+/AL,pred+,AL,9-Mar,2,27-Apr,15:02,pred+,0.093,1,7,8,
+AH,AHF2_1O3Y.3.1,M,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,1,10-Jun,15:43,pred+,0.118,1,432,4,
+AH,AHF2_1O3Y.3.1,M,AHF2_1O3Y,3,pred+/dif,pred+/AL,pred+,AL,25-Apr,2,11-Jun,16:55,pred-,0.118,1,73,4,
+AH,AHF2_1O3Y.4.5,M,AHF2_1O3Y,4,pred+/dif,pred+/AL,pred+,AL,18-May,1,3-Jul,14:21,pred-,0.116,1,43,10,
+AH,AHF2_1O3Y.4.5,M,AHF2_1O3Y,4,pred+/dif,pred+/AL,pred+,AL,18-May,2,4-Jul,14:17,pred+,0.116,1,37,4,
+AH,AHF2_1O3Y.5.8,M,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,1,27-Jul,15:13,pred+,0.104,1,212,7,
+AH,AHF2_1O3Y.5.8,M,AHF2_1O3Y,5,pred+/dif,pred+/AL,pred+,AL,10-Jun,2,28-Jul,15:37,pred-,0.104,1,154,35,
+AH,AHF2_1P3G.5.8,M,AHF2_1P3G,5,pred+/dif,pred+/AL,pred+,AL,11-Jul,1,26-Aug,15:14,pred-,0.107,1,25,7,
+AH,AHF2_1P3G.5.8,M,AHF2_1P3G,5,pred+/dif,pred+/AL,pred+,AL,11-Jul,2,27-Aug,15:08,pred+,0.107,1,43,8,
+AH,AHF2_1Y2P.2.2,M,AHF2_1Y2P,2,pred+/dif,pred+/AL,pred+,AL,8-Dec,1,23-Jan,15:06,pred+,0.103,1,14,102,
+AH,AHF2_1Y2P.2.2,M,AHF2_1Y2P,2,pred+/dif,pred+/AL,pred+,AL,8-Dec,2,24-Jan,15:45,pred-,0.103,1,15,98,fed from bottom
+AH,AHF2_1Y2P.5.2,M,AHF2_1Y2P,5,pred+/dif,pred+/AL,pred+,AL,3-Mar,1,18-Apr,15:30,pred+,0.115,1,281,4,
+AH,AHF2_1Y2P.5.2,M,AHF2_1Y2P,5,pred+/dif,pred+/AL,pred+,AL,3-Mar,2,19-Apr,15:40,pred-,0.115,1,24,11,
+AH,AHF2_1Y3O.3.5,M,AHF2_1Y3O,3,pred+/dif,pred+/AL,pred+,AL,1-Mar,1,16-Apr,18:01,pred-,0.131,1,108,25,first 3 pecks at bottom
+AH,AHF2_1Y3O.3.5,M,AHF2_1Y3O,3,pred+/dif,pred+/AL,pred+,AL,1-Mar,2,17-Apr,16:20,pred+,0.131,1,32,49,almost all at bottom
+AH,AHF2_1Y3O.5.8,M,AHF2_1Y3O,5,pred+/dif,pred+/AL,pred+,AL,18-Apr,1,3-Jun,16:18,pred-,0.092,1,99,23,
+AH,AHF2_1Y3O.5.8,M,AHF2_1Y3O,5,pred+/dif,pred+/AL,pred+,AL,18-Apr,2,4-Jun,15:58,pred+,0.092,1,119,4,*Haven't found this data sheet
+AH,AHF2_1Y3O.6.13,M,AHF2_1Y3O,6,pred+/dif,pred+/AL,pred+,AL,13-May,1,28-Jun,14:04,pred+,0.109,1,112,15,
+AH,AHF2_1Y3O.6.13,M,AHF2_1Y3O,6,pred+/dif,pred+/AL,pred+,AL,13-May,2,29-Jun,15:30,pred-,0.109,1,39,45,
+AH,AHF2_1Y3O.7.4,M,AHF2_1Y3O,7,pred+/dif,pred+/AL,pred+,AL,8-Jun,1,24-Jul,15:44,pred+,0.108,1,22,176,
+AH,AHF2_1Y3O.7.4,M,AHF2_1Y3O,7,pred+/dif,pred+/AL,pred+,AL,8-Jun,2,25-Jul,15:48,pred-,0.108,1,18,4,
+AL,ALF2_1G3Y.3.2,F,ALF2_1G3Y,3,pred-/dif,pred-/AH,pred-,AH,7-Mar,1,22-Apr,15:51,pred-,0.108,1,149,8,
+AL,ALF2_1G3Y.3.2,F,ALF2_1G3Y,3,pred-/dif,pred-/AH,pred-,AH,7-Mar,2,24-Apr,14:30,pred+,0.108,2,40,26,
+AL,ALF2_1O2G.2.2,F,ALF2_1O2G,2,pred-/dif,pred-/AH,pred-,AH,28-Feb,1,15-Apr,17:30,pred+,0.118,1,433,1,latency to feed was on a fally flake
+AL,ALF2_1O2G.2.2,F,ALF2_1O2G,2,pred-/dif,pred-/AH,pred-,AH,28-Feb,2,16-Apr,17:37,pred-,0.118,1,480,3,
+AL,ALF2_1O2G.3.2,F,ALF2_1O2G,3,pred-/dif,pred-/AH,pred-,AH,27-Mar,1,12-May,17:06,pred-,0.117,1,97,40,
+AL,ALF2_1O2G.3.2,F,ALF2_1O2G,3,pred-/dif,pred-/AH,pred-,AH,27-Mar,2,13-May,17:25,pred+,0.117,1,28,16,
+AL,ALF2_1O2G.4.3,F,ALF2_1O2G,4,pred-/dif,pred-/AH,pred-,AH,23-Apr,1,8-Jun,16:15,pred-,0.117,1,82,8,
+AL,ALF2_1O2G.4.3,F,ALF2_1O2G,4,pred-/dif,pred-/AH,pred-,AH,23-Apr,2,10-Jun,15:05,pred+,0.117,2,357,1,
+AL,ALF2_1O2G.6.2,F,ALF2_1O2G,6,pred-/dif,pred-/AH,pred-,AH,8-Aug,1,18-Sep,14:35,pred+,0.175,1,50,2,
+AL,ALF2_1O2G.6.2,F,ALF2_1O2G,6,pred-/dif,pred-/AH,pred-,AH,8-Aug,2,19-Sep,16:06,pred-,0.175,1,25,38,
+AL,ALF2_1O2O.2.4,F,ALF2_1O2O,2,pred-/dif,pred-/AH,pred-,AH,10-Jun,1,29-Jul,14:25,pred-,0.128,1,134,9,
+AL,ALF2_1O2O.2.4,F,ALF2_1O2O,2,pred-/dif,pred-/AH,pred-,AH,10-Jun,2,30-Jul,15:21,pred+,0.128,1,479,1,
+AL,ALF2_1O2O.3.3,F,ALF2_1O2O,3,pred-/dif,pred-/AH,pred-,AH,5-Jul,1,22-Aug,NA,pred-,0.113,3,600,0,didn't eat 3x
+AL,ALF2_1O2O.3.3,F,ALF2_1O2O,3,pred-/dif,pred-/AH,pred-,AH,5-Jul,2,NA,NA,pred+,0.113,NA,NA,NA,not tested
+AL,ALF2_1O3O.3.2,F,ALF2_1O3O,3,pred-/dif,pred-/AH,pred-,AH,7-Mar,1,22-Apr,15:41,pred-,0.113,1,58,2,pecked at the bottom
+AL,ALF2_1O3O.3.2,F,ALF2_1O3O,3,pred-/dif,pred-/AH,pred-,AH,7-Mar,2,24-Apr,14:30,pred+,0.113,2,148,4,
+AL,ALF2_1O3Y.3.5,F,ALF2_1O3Y,3,pred-/dif,pred-/AH,pred-,AH,2-Jul,1,17-Aug,13:56,pred-,0.127,1,120,12,"all pecks in middle of water column; was pecking against glass a little before 2  minutes, but wasn't sure so didn't count yet"
+AL,ALF2_1O3Y.3.5,F,ALF2_1O3Y,3,pred-/dif,pred-/AH,pred-,AH,2-Jul,2,18-Aug,15:26,pred+,0.127,1,62,6,same as yesterday pecking at glass in middel of water column 
+AL,ALF2_1O3Y.3.6,F,ALF2_1O3Y,3,pred-/dif,pred-/AH,pred-,AH,2-Jul,1,17-Aug,14:49,pred-,0.131,1,290,1,
+AL,ALF2_1O3Y.3.6,F,ALF2_1O3Y,3,pred-/dif,pred-/AH,pred-,AH,2-Jul,2,19-Aug,15:50,pred+,0.131,2,123,2,
+AL,ALF2_1P2Y.2.4,F,ALF2_1P2Y,2,pred-/dif,pred-/AH,pred-,AH,28-Jun,1,15-Aug,NA,pred+,0.134,3,600,0,didn't eat 3x
+AL,ALF2_1P2Y.2.4,F,ALF2_1P2Y,2,pred-/dif,pred-/AH,pred-,AH,28-Jun,2,NA,NA,pred-,0.134,NA,NA,NA,not tested
+AL,ALF2_1P2Y.3.2,F,ALF2_1P2Y,3,pred-/dif,pred-/AH,pred-,AH,30-Jul,1,14-Sep,15:10,pred-,0.104,1,161,1,
+AL,ALF2_1P2Y.3.2,F,ALF2_1P2Y,3,pred-/dif,pred-/AH,pred-,AH,30-Jul,2,15-Sep,15:42,pred+,0.104,1,99,12,
+AL,ALF2_1P3G.4.4,F,ALF2_1P3G,4,pred-/dif,pred-/AH,pred-,AH,21-Apr,1,10-Jun,NA,pred+,0.081,3,600,0,didn't eat 3x
+AL,ALF2_1P3G.4.4,F,ALF2_1P3G,4,pred-/dif,pred-/AH,pred-,AH,21-Apr,1,NA,NA,NA,0.081,NA,NA,NA,didn't eat
+AL,ALF2_1P3G.5.1,F,ALF2_1P3G,5,pred-/dif,pred-/AH,pred-,AH,15-May,1,30-Jun,14:24,pred-,0.122,1,25,48,weight 12 days after assay
+AL,ALF2_1P3G.5.1,F,ALF2_1P3G,5,pred-/dif,pred-/AH,pred-,AH,15-May,2,1-Jul,14:58,pred+,0.122,1,54,11,
+AL,ALF2_1P4G.2.3,F,ALF2_1P4G,2,pred-/dif,pred-/AH,pred-,AH,13-Jul,1,29-Aug,16:35,pred+,0.109,2,74,6,
+AL,ALF2_1P4G.2.3,F,ALF2_1P4G,2,pred-/dif,pred-/AH,pred-,AH,13-Jul,2,30-Aug,16:50,pred-,0.109,1,99,5,didn't eat 8/28
+AL,ALF2_1P4O.3.1,F,ALF2_1P4O,3,pred-/dif,pred-/AH,pred-,AH,26-Mar,1,12-May,NA,pred+,0.136,1,104,9,
+AL,ALF2_1P4O.3.1,F,ALF2_1P4O,3,pred-/dif,pred-/AH,pred-,AH,26-Mar,2,13-May,17:30,pred-,0.136,1,54,10,
+AL,ALF2_1P4O.7.2,F,ALF2_1P4O,7,pred-/dif,pred-/AH,pred-,AH,12-Aug,1,28-Sep,15:00,pred+,0.242,1,195,2,
+AL,ALF2_1P4O.7.2,F,ALF2_1P4O,7,pred-/dif,pred-/AH,pred-,AH,12-Aug,2,29-Sep,15:46,pred-,0.242,1,128,14,middle and bottom
+AL,ALF2_1P4P.2.2,F,ALF2_1P4P,2,pred-/dif,pred-/AH,pred-,AH,11-Jan,1,28-Feb,15:51,pred-,0.111,1,141,24,
+AL,ALF2_1P4P.2.2,F,ALF2_1P4P,2,pred-/dif,pred-/AH,pred-,AH,11-Jan,2,1-Mar,15:24,pred+,0.111,1,19,70,
+AL,ALF2_3G4G.2.2,F,ALF2_3G4G,2,pred-/dif,pred-/AH,pred-,AH,2-Feb,1,9-Apr,17:07,pred-,0.114,1,390,11,
+AL,ALF2_3G4G.2.2,F,ALF2_3G4G,2,pred-/dif,pred-/AH,pred-,AH,2-Feb,2,10-Apr,17:12,pred+,0.114,1,550,1,
+AL,ALF2_3G4G.3.3,F,ALF2_3G4G,3,pred-/dif,pred-/AH,pred-,AH,19-Mar,1,5-May,NA,pred+,0.083,2,247,4,
+AL,ALF2_3G4G.3.3,F,ALF2_3G4G,3,pred-/dif,pred-/AH,pred-,AH,19-Mar,2,6-May,NA,pred-,0.083,1,47,3,
+AL,ALF2_1G3O.2.2,M,ALF2_1G3O,2,pred-/dif,pred-/AH,pred-,AH,16-Jul,1,2-Sep,15:16,pred+,0.112,3,146,1,
+AL,ALF2_1G3O.2.2,M,ALF2_1G3O,2,pred-/dif,pred-/AH,pred-,AH,16-Jul,2,3-Sep,13:06,pred-,0.112,1,19,16,refer to data sheet for why ran at 1:06 pm 
+AL,ALF2_1G3P.4.2,M,ALF2_1G3P,4,pred-/dif,pred-/AH,pred-,AH,13-Feb,1,4-Apr,15:40,pred+,0.1,4,18,4,
+AL,ALF2_1G3P.4.2,M,ALF2_1G3P,4,pred-/dif,pred-/AH,pred-,AH,13-Feb,2,5-Apr,15:55,pred-,0.1,1,192,4,
+AL,ALF2_1G3P.5.1,M,ALF2_1G3P,5,pred-/dif,pred-/AH,pred-,AH,8-Mar,1,24-Apr,15:35,pred+,0.098,1,131,111,
+AL,ALF2_1G3P.5.1,M,ALF2_1G3P,5,pred-/dif,pred-/AH,pred-,AH,8-Mar,2,25-Apr,15:23,pred-,0.098,1,31,61,
+AL,ALF2_1G3Y.2.2,M,ALF2_1G3Y,2,pred-/dif,pred-/AH,pred-,AH,2-Feb,1,27-Mar,15:25,pred+,0.08,1,168,59,
+AL,ALF2_1G3Y.2.2,M,ALF2_1G3Y,2,pred-/dif,pred-/AH,pred-,AH,2-Feb,2,28-Mar,15:50,pred-,0.08,1,60,29,
+AL,ALF2_1O2O.1.1,M,ALF2_1O2O,1,pred-/dif,pred-/AH,pred-,AH,5-Feb,1,24-Mar,16:50,pred-,0.102,1,224,5,weight 13 days after assay
+AL,ALF2_1O2O.1.1,M,ALF2_1O2O,1,pred-/dif,pred-/AH,pred-,AH,5-Feb,2,25-Mar,16:53,pred+,0.102,1,94,2,weight 13 days after assay
+AL,ALF2_1O2O.3.4,M,ALF2_1O2O,3,pred-/dif,pred-/AH,pred-,AH,5-Jul,1,20-Aug,16:21,pred+,0.115,1,64,1,
+AL,ALF2_1O2O.3.4,M,ALF2_1O2O,3,pred-/dif,pred-/AH,pred-,AH,5-Jul,2,21-Aug,16:33,pred-,0.115,1,271,31,
+AL,ALF2_1O3O.2.2,M,ALF2_1O3O,2,pred-/dif,pred-/AH,pred-,AH,10-Feb,1,29-Mar,15:20,pred-,0.085,1,108,29,
+AL,ALF2_1O3O.2.2,M,ALF2_1O3O,2,pred-/dif,pred-/AH,pred-,AH,10-Feb,2,30-Mar,16:00,pred+,0.085,1,290,2,
+AL,ALF2_1O3Y.3.7,M,ALF2_1O3Y,3,pred-/dif,pred-/AH,pred-,AH,2-Jul,1,19-Aug,NA,pred+,0.111,3,600,0,didn't eat 3x
+AL,ALF2_1O3Y.3.7,M,ALF2_1O3Y,3,pred-/dif,pred-/AH,pred-,AH,2-Jul,2,NA,NA,pred-,0.111,NA,NA,NA,not tested
+AL,ALF2_1O3Y.4.2,M,ALF2_1O3Y,4,pred-/dif,pred-/AH,pred-,AH,3-Aug,1,20-Sep,17:01,pred-,0.041,3,326,3,"didn't eat 9/18, 9/19"
+AL,ALF2_1O3Y.4.2,M,ALF2_1O3Y,4,pred-/dif,pred-/AH,pred-,AH,3-Aug,2,21-Sep,15:00,pred+,0.041,1,112,5,
+AL,ALF2_1P3G.5.2,M,ALF2_1P3G,5,pred-/dif,pred-/AH,pred-,AH,15-May,1,1-Jul,15:11,pred+,0.092,2,542,1,didn't eat 6/30
+AL,ALF2_1P3G.5.2,M,ALF2_1P3G,5,pred-/dif,pred-/AH,pred-,AH,15-May,2,2-Jul,16:13,pred-,0.092,1,419,1,weight 11 days after assay
+AL,ALF2_1P4G.3.2,M,ALF2_1P4G,3,pred-/dif,pred-/AH,pred-,AH,9-Aug,1,24-Sep,13:25,pred+,0.099,1,126,44,
+AL,ALF2_1P4G.3.2,M,ALF2_1P4G,3,pred-/dif,pred-/AH,pred-,AH,9-Aug,2,25-Sep,14:30,pred-,0.099,1,136,23,
+AL,ALF2_1P4O.1.2,M,ALF2_1P4O,1,pred-/dif,pred-/AH,pred-,AH,28-Dec,1,12-Feb,15:03,pred-,0.072,1,66,54,
+AL,ALF2_1P4O.1.2,M,ALF2_1P4O,1,pred-/dif,pred-/AH,pred-,AH,28-Dec,2,13-Feb,15:05,pred+,0.072,1,578,2,
+AL,ALF2_1P4O.4.1,M,ALF2_1P4O,4,pred-/dif,pred-/AH,pred-,AH,20-Apr,1,5-Jun,14:28,pred-,0.107,1,50,10,
+AL,ALF2_1P4O.4.1,M,ALF2_1P4O,4,pred-/dif,pred-/AH,pred-,AH,20-Apr,2,6-Jun,17:30,pred+,0.107,1,10,14,
+AL,ALF2_1P4O.4.2,M,ALF2_1P4O,4,pred-/dif,pred-/AH,pred-,AH,20-Apr,1,5-Jun,14:00,pred+,0.101,1,214,1,
+AL,ALF2_1P4O.4.2,M,ALF2_1P4O,4,pred-/dif,pred-/AH,pred-,AH,20-Apr,2,6-Jun,17:55,pred-,0.101,1,94,10,
+AL,ALF2_1P4O.5.1,M,ALF2_1P4O,5,pred-/dif,pred-/AH,pred-,AH,18-May,1,3-Jul,15:31,pred-,0.109,1,14,16,all at bottom
+AL,ALF2_1P4O.5.1,M,ALF2_1P4O,5,pred-/dif,pred-/AH,pred-,AH,18-May,2,4-Jul,14:40,pred+,0.109,1,88,4,
+AL,ALF2_1P4O.6.4,M,ALF2_1P4O,6,pred-/dif,pred-/AH,pred-,AH,12-Jul,1,27-Aug,15:43,pred-,0.099,1,36,2,
+AL,ALF2_1P4O.6.4,M,ALF2_1P4O,6,pred-/dif,pred-/AH,pred-,AH,12-Jul,2,29-Aug,16:13,pred+,0.099,2,64,6,didn't eat 8/28
+AL,ALF2_1P4O.6.5,M,ALF2_1P4O,6,pred-/dif,pred-/AH,pred-,AH,12-Jul,1,27-Aug,15:34,pred+,0.0096,1,86,1,
+AL,ALF2_1P4O.6.5,M,ALF2_1P4O,6,pred-/dif,pred-/AH,pred-,AH,12-Jul,2,29-Aug,16:08,pred-,0.0096,2,100,5,
+AL,ALF2_1P4P.4.2,M,ALF2_1P4P,4,pred-/dif,pred-/AH,pred-,AH,4-Mar,1,19-Apr,15:44,pred-,0.087,1,315,11,so gentle 
+AL,ALF2_1P4P.4.2,M,ALF2_1P4P,4,pred-/dif,pred-/AH,pred-,AH,4-Mar,2,20-Apr,17:00,pred+,0.087,1,122,1,
+AL,ALF2_3G4G.1.1,M,ALF2_3G4G,1,pred-/dif,pred-/AH,pred-,AH,22-Jan,1,11-Mar,16:50,pred+,0.08,1,492,4,
+AL,ALF2_3G4G.1.1,M,ALF2_3G4G,1,pred-/dif,pred-/AH,pred-,AH,22-Jan,2,12-Mar,15:50,pred-,0.08,1,260,1,
+AL,ALF2_3G4G.2.3,M,ALF2_3G4G,2,pred-/dif,pred-/AH,pred-,AH,22-Feb,1,10-Apr,17:27,pred+,0.085,2,275,12,didn't eat 4/9
+AL,ALF2_3G4G.2.3,M,ALF2_3G4G,2,pred-/dif,pred-/AH,pred-,AH,22-Feb,2,11-Apr,17:04,pred-,0.085,1,9,14,
+AL,ALF2_3G4G.3.2,M,ALF2_3G4G,3,pred-/dif,pred-/AH,pred-,AH,19-Mar,1,4-May,17:11,pred-,0.088,1,46,5,
+AL,ALF2_3G4G.3.2,M,ALF2_3G4G,3,pred-/dif,pred-/AH,pred-,AH,19-Mar,2,5-May,NA,pred+,0.088,1,294,1,
+AL,ALF2_3G4G.4.3,M,ALF2_3G4G,4,pred-/dif,pred-/AH,pred-,AH,15-Apr,1,2-Jun,14:40,pred+,0.117,3,321,3,
+AL,ALF2_3G4G.4.3,M,ALF2_3G4G,4,pred-/dif,pred-/AH,pred-,AH,15-Apr,2,3-Jun,16:35,pred-,0.117,1,8,7,
+AL,ALF2_1G3Y.1.1,F,ALF2_1G3Y,1,pred-/same,pred-/AL,pred-,AL,11-Jan,1,27-Feb,16:02,pred+,0.068,2,467,5,
+AL,ALF2_1G3Y.1.1,F,ALF2_1G3Y,1,pred-/same,pred-/AL,pred-,AL,11-Jan,2,1-Mar,15:20,pred-,0.068,2,39,2,
+AL,ALF2_1O2G.4.1,F,ALF2_1O2G,4,pred-/same,pred-/AL,pred-,AL,23-Apr,1,9-Jun,14:36,pred+,0.122,2,308,1,
+AL,ALF2_1O2G.4.1,F,ALF2_1O2G,4,pred-/same,pred-/AL,pred-,AL,23-Apr,2,10-Jun,14:54,pred-,0.122,1,201,1,
+AL,ALF2_1O2G.6.1,F,ALF2_1O2G,6,pred-/same,pred-/AL,pred-,AL,3-Aug,1,18-Sep,14:30,pred-,0.153,1,247,10,ate at bottom of tank
+AL,ALF2_1O2G.6.1,F,ALF2_1O2G,6,pred-/same,pred-/AL,pred-,AL,3-Aug,2,19-Sep,16:01,pred+,0.153,1,173,35,
+AL,ALF2_1O2O.2.1,F,ALF2_1O2O,2,pred-/same,pred-/AL,pred-,AL,10-Jun,1,29-Jul,14:39,pred-,0.114,1,480,2,"all at bottom; may have missed some because was behind bottom rim; 7/29 not very active, sitting at bottom of tank then frantically swamn around bottom"
+AL,ALF2_1O2O.2.1,F,ALF2_1O2O,2,pred-/same,pred-/AL,pred-,AL,10-Jun,2,1-Aug,14:00,pred+,0.114,3,96,10,7/30 - idn't eat; 7/31 didn't eat
+AL,ALF2_1O2O.3.1,F,ALF2_1O2O,3,pred-/same,pred-/AL,pred-,AL,5-Jul,1,20-Aug,16:35,pred+,0.087,1,293,5,
+AL,ALF2_1O2O.3.1,F,ALF2_1O2O,3,pred-/same,pred-/AL,pred-,AL,5-Jul,2,21-Aug,16:41,pred-,0.087,1,188,6,
+AL,ALF2_1O3O.4.3,F,ALF2_1O3O,4,pred-/same,pred-/AL,pred-,AL,3-Apr,2,20-May,17:00,pred+,0.095,1,50,1,
+AL,ALF2_1O3O.4.3,F,ALF2_1O3O,4,pred-/same,pred-/AL,pred-,AL,3-Apr,1,19-May,15:00,pred-,0.095,1,12,64,top
+AL,ALF2_1O3Y.2.1,F,ALF2_1O3Y,2,pred-/same,pred-/AL,pred-,AL,25-Jan,1,12-Mar,16:02,pred-,0.092,1,452,24,
+AL,ALF2_1O3Y.2.1,F,ALF2_1O3Y,2,pred-/same,pred-/AL,pred-,AL,25-Jan,2,14-Mar,15:25,pred+,0.092,2,262,8,
+AL,ALF2_1O3Y.3.1,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,1,18-Aug,15:33,pred-,0.103,2,144,6,didn't eat 8/17
+AL,ALF2_1O3Y.3.1,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,2,19-Aug,15:15,pred+,0.103,1,572,6,
+AL,ALF2_1O3Y.3.2,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,1,17-Aug,15:58,pred+,0.136,1,53,5,
+AL,ALF2_1O3Y.3.2,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,2,18-Aug,15:19,pred-,0.136,1,172,15,
+AL,ALF2_1O3Y.3.3,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,1,18-Aug,14:02,pred+,0.126,2,45,4,"didn't eat 8/17; 8/18 while running another trial, was pecking"
+AL,ALF2_1O3Y.3.3,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,2,19-Aug,15:40,pred-,0.126,1,339,5,
+AL,ALF2_1O3Y.3.4,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,1,17-Aug,16:07,pred-,0.123,1,145,6,
+AL,ALF2_1O3Y.3.4,F,ALF2_1O3Y,3,pred-/same,pred-/AL,pred-,AL,2-Jul,2,18-Aug,15:00,pred+,0.123,1,322,1,
+AL,ALF2_1P4G.2.1,F,ALF2_1P4G,2,pred-/same,pred-/AL,pred-,AL,13-Jul,1,28-Aug,16:12,pred+,0.165,1,436,14,didn't eat 8/29
+AL,ALF2_1P4G.2.1,F,ALF2_1P4G,2,pred-/same,pred-/AL,pred-,AL,13-Jul,2,30-Aug,16:55,pred-,0.165,2,74,23,
+AL,ALF2_1P4O.6.1,F,ALF2_1P4O,6,pred-/same,pred-/AL,pred-,AL,12-Jul,1,27-Aug,15:29,pred+,0.198,1,132,2,
+AL,ALF2_1P4O.6.1,F,ALF2_1P4O,6,pred-/same,pred-/AL,pred-,AL,12-Jul,2,29-Aug,16:02,pred-,0.198,2,325,5,didn't eat 8/28
+AL,ALF2_1P4O.6.3,F,ALF2_1P4O,6,pred-/same,pred-/AL,pred-,AL,12-Jul,1,27-Aug,15:49,pred-,0.152,1,80,59,
+AL,ALF2_1P4O.6.3,F,ALF2_1P4O,6,pred-/same,pred-/AL,pred-,AL,12-Jul,2,28-Aug,15:11,pred+,0.152,1,474,14,
+AL,ALF2_1P4P.4.1,F,ALF2_1P4P,4,pred-/same,pred-/AL,pred-,AL,4-Mar,1,19-Apr,15:44,pred-,0.12,1,31,21,
+AL,ALF2_1P4P.4.1,F,ALF2_1P4P,4,pred-/same,pred-/AL,pred-,AL,4-Mar,2,20-Apr,16:50,pred-,0.12,1,94,4,
+AL,ALF2_1P4P.5.1,F,ALF2_1P4P,5,pred-/same,pred-/AL,pred-,AL,30-Mar,1,16-May,10:14,pred-,0.108,2,89,9,didn't eat 5/15
+AL,ALF2_1P4P.5.1,F,ALF2_1P4P,5,pred-/same,pred-/AL,pred-,AL,30-Mar,2,18-May,14:45,pred+,0.108,2,395,1,didn't eat 5/17
+AL,ALF2_3G4G.2.1,F,ALF2_3G4G,2,pred-/same,pred-/AL,pred-,AL,22-Feb,1,9-Apr,17:29,pred-,0.132,1,262,7,
+AL,ALF2_3G4G.2.1,F,ALF2_3G4G,2,pred-/same,pred-/AL,pred-,AL,22-Feb,2,10-Apr,17:35,pred+,0.132,1,22,1,
+AL,ALF2_1G3P.2.1,M,ALF2_1G3P,2,pred-/same,pred-/AL,pred-,AL,22-Dec,1,7-Feb,16:12,pred+,0.084,2,600,0,didn't eat
+AL,ALF2_1G3P.2.1,M,ALF2_1G3P,2,pred-/same,pred-/AL,pred-,AL,22-Dec,2,8-Feb,15:48,pred-,0.084,1,80,9,
+AL,ALF2_1G3Y.3.1,M,ALF2_1G3Y,3,pred-/same,pred-/AL,pred-,AL,7-Mar,1,22-Apr,15:46,pred-,0.081,1,42,15,
+AL,ALF2_1G3Y.3.1,M,ALF2_1G3Y,3,pred-/same,pred-/AL,pred-,AL,7-Mar,2,24-Apr,2:50,pred+,0.081,2,435,35,
+AL,ALF2_1O2G.1.2,M,ALF2_1O2G,1,pred-/same,pred-/AL,pred-,AL,23-Jan,1,10-Mar,15:48,pred+,0.078,1,55,85,
+AL,ALF2_1O2G.1.2,M,ALF2_1O2G,1,pred-/same,pred-/AL,pred-,AL,23-Jan,2,11-Mar,16:33,pred-,0.078,1,105,14,
+AL,ALF2_1O2G.2.1,M,ALF2_1O2G,2,pred-/same,pred-/AL,pred-,AL,28-Feb,1,17-Apr,16:30,pred+,0.09,3,217,9,
+AL,ALF2_1O2G.2.1,M,ALF2_1O2G,2,pred-/same,pred-/AL,pred-,AL,28-Feb,2,18-Apr,NA,pred-,0.09,1,215,3,
+AL,ALF2_1O2G.4.2,M,ALF2_1O2G,4,pred-/same,pred-/AL,pred-,AL,23-Apr,1,8-Jun,15:55,pred-,0.107,1,136,1,
+AL,ALF2_1O2G.4.2,M,ALF2_1O2G,4,pred-/same,pred-/AL,pred-,AL,23-Apr,2,9-Jun,14:18,pred+,0.107,1,69,1,
+AL,ALF2_1O2O.2.3,M,ALF2_1O2O,2,pred-/same,pred-/AL,pred-,AL,10-Jun,1,29-Jul,16:00,pred-,0.086,3,271,10,didn't eat 7/27 very still at top of tank; didn't eat 7/28 more active swimming
+AL,ALF2_1O2O.2.3,M,ALF2_1O2O,2,pred-/same,pred-/AL,pred-,AL,10-Jun,2,30-Jul,14:24,pred+,0.086,1,33,24,spooked when added food very active 
+AL,ALF2_1O2O.3.2,M,ALF2_1O2O,3,pred-/same,pred-/AL,pred-,AL,5-Jul,1,20-Aug,15:38,pred-,0.087,1,493,3,
+AL,ALF2_1O2O.3.2,M,ALF2_1O2O,3,pred-/same,pred-/AL,pred-,AL,5-Jul,2,21-Aug,15:59,pred+,0.087,1,71,52,watched pecking while running assay before; most at bottom last few at top
+AL,ALF2_1O3O.2.1,M,ALF2_1O3O,2,pred-/same,pred-/AL,pred-,AL,10-Feb,1,29-Mar,15:30,pred+,0.084,1,102,23,
+AL,ALF2_1O3O.2.1,M,ALF2_1O3O,2,pred-/same,pred-/AL,pred-,AL,10-Feb,2,2-Apr,15:50,pred-,0.084,4,520,8,
+AL,ALF2_1O3O.3.1,M,ALF2_1O3O,3,pred-/same,pred-/AL,pred-,AL,7-Mar,1,22-Apr,15:58,pred-,0.066,1,159,39,
+AL,ALF2_1O3O.3.1,M,ALF2_1O3O,3,pred-/same,pred-/AL,pred-,AL,7-Mar,2,24-Apr,NA,pred+,0.066,2,10,36,
+AL,ALF2_1O3O.4.2,M,ALF2_1O3O,4,pred-/same,pred-/AL,pred-,AL,3-Apr,1,19-May,14:55,pred+,0.073,1,42,13,top
+AL,ALF2_1O3O.4.2,M,ALF2_1O3O,4,pred-/same,pred-/AL,pred-,AL,3-Apr,2,20-May,17:13,pred-,0.073,1,98,7,top and bottom
+AL,ALF2_1P2Y.3.1,M,ALF2_1P2Y,3,pred-/same,pred-/AL,pred-,AL,30-Jul,1,14-Sep,15:20,pred+,0.112,1,544,6,
+AL,ALF2_1P2Y.3.1,M,ALF2_1P2Y,3,pred-/same,pred-/AL,pred-,AL,30-Jul,2,15-Sep,16:06,pred-,0.112,1,16,7,
+AL,ALF2_1P3G.3.1,M,ALF2_1P3G,3,pred-/same,pred-/AL,pred-,AL,24-Mar,1,11-May,15:30,pred+,0.079,3,156,1,
+AL,ALF2_1P3G.3.1,M,ALF2_1P3G,3,pred-/same,pred-/AL,pred-,AL,24-Mar,2,12-May,16:45,pred-,0.079,1,66,4,
+AL,ALF2_1P3G.4.1,M,ALF2_1P3G,4,pred-/same,pred-/AL,pred-,AL,21-Apr,1,8-Jun,15:50,pred-,0.083,1,132,2,
+AL,ALF2_1P3G.4.1,M,ALF2_1P3G,4,pred-/same,pred-/AL,pred-,AL,21-Apr,2,9-Jun,NA,pred+,0.083,1,53,1,
+AL,ALF2_1P4G.2.2,M,ALF2_1P4G,2,pred-/same,pred-/AL,pred-,AL,13-Jul,1,28-Aug,15:43,pred-,0.103,1,49,36,first peck in middle
+AL,ALF2_1P4G.2.2,M,ALF2_1P4G,2,pred-/same,pred-/AL,pred-,AL,13-Jul,2,29-Aug,16:30,pred+,0.103,1,22,46,first peck in middle
+AL,ALF2_1P4O.7.1,M,ALF2_1P4O,7,pred-/same,pred-/AL,pred-,AL,8-Aug,1,28-Sep,15:15,pred+,0.098,1,75,5,
+AL,ALF2_1P4O.7.1,M,ALF2_1P4O,7,pred-/same,pred-/AL,pred-,AL,8-Aug,2,29-Sep,15:50,pred-,0.098,1,10,1,
+AL,ALF2_1P4P.3.1,M,ALF2_1P4P,3,pred-/same,pred-/AL,pred-,AL,5-Feb,1,24-Mar,16:59,pred-,0.108,1,119,46,weighted 13 days after assay
+AL,ALF2_1P4P.3.1,M,ALF2_1P4P,3,pred-/same,pred-/AL,pred-,AL,5-Feb,2,25-Mar,16:59,pred+,0.108,1,313,57,
+AL,ALF2_3G4G.3.1,M,ALF2_3G4G,3,pred-/same,pred-/AL,pred-,AL,19-Mar,1,4-May,16:46,pred+,0.093,1,147,14,
+AL,ALF2_3G4G.3.1,M,ALF2_3G4G,3,pred-/same,pred-/AL,pred-,AL,19-Mar,2,5-May,20:43,pred-,0.093,1,117,4,
+AL,ALF2_3G4G.4.1,M,ALF2_3G4G,4,pred-/same,pred-/AL,pred-,AL,15-Apr,1,31-May,14:28,pred-,0.107,1,246,1,
+AL,ALF2_3G4G.4.1,M,ALF2_3G4G,4,pred-/same,pred-/AL,pred-,AL,15-Apr,2,1-Jun,17:47,pred+,0.107,1,99,8,
+AL,ALF2_3G4G.4.2,M,ALF2_3G4G,4,pred-/same,pred-/AL,pred-,AL,15-Apr,1,1-Jun,17:53,pred+,0.142,2,26,19,
+AL,ALF2_3G4G.4.2,M,ALF2_3G4G,4,pred-/same,pred-/AL,pred-,AL,15-Apr,2,2-Jun,14:50,pred-,0.142,1,221,1,
+AL,ALF2_1G3Y.1.2,F,ALF2_1G3Y,1,pred+/dif,pred+/AH,pred+,AH,11-Jan,1,28-Feb,15:38,pred-,0.097,1,292,1,
+AL,ALF2_1G3Y.1.2,F,ALF2_1G3Y,1,pred+/dif,pred+/AH,pred+,AH,11-Jan,2,1-Mar,15:07,pred+,0.097,1,450,2,
+AL,ALF2_1G3Y.3.6,F,ALF2_1G3Y,3,pred+/dif,pred+/AH,pred+,AH,7-Mar,1,22-Apr,15:30,pred+,0.106,1,210,1,
+AL,ALF2_1G3Y.3.6,F,ALF2_1G3Y,3,pred+/dif,pred+/AH,pred+,AH,7-Mar,2,24-Apr,15:20,pred-,0.106,2,94,1,
+AL,ALF2_1O2G.1.3,F,ALF2_1O2G,1,pred+/dif,pred+/AH,pred+,AH,23-Jan,1,10-Mar,15:55,pred-,0.104,1,221,90,
+AL,ALF2_1O2G.1.3,F,ALF2_1O2G,1,pred+/dif,pred+/AH,pred+,AH,23-Jan,2,11-Mar,16:40,pred+,0.104,1,215,67,
+AL,ALF2_1O2G.2.5,F,ALF2_1O2G,2,pred+/dif,pred+/AH,pred+,AH,28-Feb,1,15-Apr,17:50,pred+,0.126,1,232,6,
+AL,ALF2_1O2G.2.5,F,ALF2_1O2G,2,pred+/dif,pred+/AH,pred+,AH,28-Feb,2,16-Apr,NA,pred-,0.126,NA,206,11,
+AL,ALF2_1O2G.3.4,F,ALF2_1O2G,3,pred+/dif,pred+/AH,pred+,AH,27-Mar,1,12-May,16:54,pred-,0.114,1,307,4,
+AL,ALF2_1O2G.3.4,F,ALF2_1O2G,3,pred+/dif,pred+/AH,pred+,AH,27-Mar,2,13-May,17:20,pred+,0.114,1,222,8,
+AL,ALF2_1O2G.4.6,F,ALF2_1O2G,4,pred+/dif,pred+/AH,pred+,AH,23-Apr,1,8-Jun,16:40,pred+,0.136,1,131,24,bottom
+AL,ALF2_1O2G.4.6,F,ALF2_1O2G,4,pred+/dif,pred+/AH,pred+,AH,23-Apr,2,9-Jun,14:49,pred-,0.136,1,452,2,
+AL,ALF2_1O2G.4.7,F,ALF2_1O2G,4,pred+/dif,pred+/AH,pred+,AH,23-Apr,1,8-Jun,16:20,pred-,0.137,1,14,3,
+AL,ALF2_1O2G.4.7,F,ALF2_1O2G,4,pred+/dif,pred+/AH,pred+,AH,23-Apr,2,9-Jun,15:22,pred+,0.137,1,156,2,
+AL,ALF2_1O2O.3.7,F,ALF2_1O2O,3,pred+/dif,pred+/AH,pred+,AH,5-Jul,1,20-Aug,16:28,pred+,0.11,1,73,2,
+AL,ALF2_1O2O.3.7,F,ALF2_1O2O,3,pred+/dif,pred+/AH,pred+,AH,5-Jul,2,21-Aug,16:25,pred-,0.11,1,32,34,
+AL,ALF2_1O3O.5.3,F,ALF2_1O3O,5,pred+/dif,pred+/AH,pred+,AH,29-Apr,1,15-Jun,15:30,pred+,0.184,1,140,155,"172 attempts is actually out of 3 min and 20 sec because forgot to look at timer, so took average pecks per min and multiplied by 3"
+AL,ALF2_1O3O.5.3,F,ALF2_1O3O,5,pred+/dif,pred+/AH,pred+,AH,29-Apr,2,16-Jun,15:33,pred-,0.184,1,20,32,
+AL,ALF2_1O3Y.3.12,F,ALF2_1O3Y,3,pred+/dif,pred+/AH,pred+,AH,2-Jul,1,17-Aug,14:14,pred-,0.123,1,362,108,"didn't eat 8/18, 8/19, 8/20"
+AL,ALF2_1O3Y.3.12,F,ALF2_1O3Y,3,pred+/dif,pred+/AH,pred+,AH,2-Jul,2,NA,NA,pred+,0.123,3,600,0,didn't eat
+AL,ALF2_1O3Y.3.13,F,ALF2_1O3Y,3,pred+/dif,pred+/AH,pred+,AH,2-Jul,1,17-Aug,14:03,pred-,0.095,1,65,1,
+AL,ALF2_1O3Y.3.13,F,ALF2_1O3Y,3,pred+/dif,pred+/AH,pred+,AH,2-Jul,2,18-Aug,14:50,pred+,0.095,1,584,1,
+AL,ALF2_1P3G.5.3,F,ALF2_1P3G,5,pred+/dif,pred+/AH,pred+,AH,15-May,1,30-Jun,14:18,pred-,0.122,1,194,4,was very still most of tiral 
+AL,ALF2_1P3G.5.3,F,ALF2_1P3G,5,pred+/dif,pred+/AH,pred+,AH,15-May,2,1-Jul,14:52,pred+,0.122,1,46,3,weight 13 days after assay
+AL,ALF2_1P4O.2.1,F,ALF2_1P4O,2,pred+/dif,pred+/AH,pred+,AH,24-Feb,1,11-Apr,16:55,pred+,0.111,1,370,4,
+AL,ALF2_1P4O.2.1,F,ALF2_1P4O,2,pred+/dif,pred+/AH,pred+,AH,24-Feb,2,12-Apr,15:23,pred-,0.111,1,247,5,mostly ate from bottom
+AL,ALF2_1P4O.4.4,F,ALF2_1P4O,4,pred+/dif,pred+/AH,pred+,AH,20-Apr,1,5-Jun,14:20,pred+,0.14,1,168,46,
+AL,ALF2_1P4O.4.4,F,ALF2_1P4O,4,pred+/dif,pred+/AH,pred+,AH,20-Apr,2,6-Jun,17:40,pred-,0.14,1,227,28,bottom to top
+AL,ALF2_1P4O.7.4,F,ALF2_1P4O,7,pred+/dif,pred+/AH,pred+,AH,8-Aug,1,28-Sep,15:20,pred-,0.152,1,285,43,
+AL,ALF2_1P4O.7.4,F,ALF2_1P4O,7,pred+/dif,pred+/AH,pred+,AH,8-Aug,2,29-Sep,15:40,pred+,0.152,1,47,7,
+AL,ALF2_1P4P.5.2,F,ALF2_1P4P,5,pred+/dif,pred+/AH,pred+,AH,30-Mar,1,15-May,15:55,pred+,0.137,1,119,2,
+AL,ALF2_1P4P.5.2,F,ALF2_1P4P,5,pred+/dif,pred+/AH,pred+,AH,30-Mar,2,17-May,14:30,pred-,0.137,2,100,29,
+AL,ALF2_3G4G.1.5,F,ALF2_3G4G,1,pred+/dif,pred+/AH,pred+,AH,22-Jan,1,9-Mar,15:30,pred+,0.121,1,145,7,
+AL,ALF2_3G4G.1.5,F,ALF2_3G4G,1,pred+/dif,pred+/AH,pred+,AH,22-Jan,2,11-Mar,16:20,pred-,0.121,2,147,2,
+AL,ALF2_3G4G.2.5,F,ALF2_3G4G,2,pred+/dif,pred+/AH,pred+,AH,22-Feb,1,9-Apr,16:43,pred-,0.118,1,5,60,
+AL,ALF2_3G4G.2.5,F,ALF2_3G4G,2,pred+/dif,pred+/AH,pred+,AH,22-Feb,2,10-Apr,17:07,pred+,0.118,1,55,7,lots of swimming in circles 
+AL,ALF2_3G4G.3.9,F,ALF2_3G4G,3,pred+/dif,pred+/AH,pred+,AH,19-Mar,1,4-May,17:15,pred+,0.122,1,81,62,
+AL,ALF2_3G4G.3.9,F,ALF2_3G4G,3,pred+/dif,pred+/AH,pred+,AH,19-Mar,2,5-May,NA,pred-,0.122,1,20,15,
+AL,ALF2_3G4G.4.6,F,ALF2_3G4G,4,pred+/dif,pred+/AH,pred+,AH,15-Apr,1,1-Jun,18:10,pred-,0.137,2,35,30,
+AL,ALF2_3G4G.4.6,F,ALF2_3G4G,4,pred+/dif,pred+/AH,pred+,AH,15-Apr,2,2-Jun,14:30,pred+,0.137,1,121,9,
+AL,ALF2_1G3P.4.4,M,ALF2_1G3P,4,pred+/dif,pred+/AH,pred+,AH,13-Feb,1,1-Apr,15:00,pred-,0.087,1,149,2,frantic swimming 
+AL,ALF2_1G3P.4.4,M,ALF2_1G3P,4,pred+/dif,pred+/AH,pred+,AH,13-Feb,2,2-Apr,16:00,pred+,0.087,1,15,6,
+AL,ALF2_1G3P.5.4,M,ALF2_1G3P,5,pred+/dif,pred+/AH,pred+,AH,8-Mar,1,24-Apr,15:30,pred-,0.088,1,22,30,
+AL,ALF2_1G3P.5.4,M,ALF2_1G3P,5,pred+/dif,pred+/AH,pred+,AH,8-Mar,2,25-Apr,15:50,pred+,0.088,1,4,46,
+AL,ALF2_1G3P.6.1,M,ALF2_1G3P,6,pred+/dif,pred+/AH,pred+,AH,31-Mar,1,16-May,10:19,pred-,0.106,1,62,7,
+AL,ALF2_1G3P.6.1,M,ALF2_1G3P,6,pred+/dif,pred+/AH,pred+,AH,31-Mar,2,17-May,14:52,pred+,0.106,1,144,2,
+AL,ALF2_1O2G.3.5,M,ALF2_1O2G,3,pred+/dif,pred+/AH,pred+,AH,27-Mar,1,14-May,15:54,pred+,0.13,3,55,13,redo from 5/12 and 5/13
+AL,ALF2_1O2G.3.5,M,ALF2_1O2G,3,pred+/dif,pred+/AH,pred+,AH,27-Mar,2,15-May,15:30,pred-,0.13,1,14,2,
+AL,ALF2_1O2O.1.7,M,ALF2_1O2O,1,pred+/dif,pred+/AH,pred+,AH,5-Feb,1,24-Mar,16:05,pred+,0.101,1,220,2,weight 13 days after assay
+AL,ALF2_1O2O.1.7,M,ALF2_1O2O,1,pred+/dif,pred+/AH,pred+,AH,5-Feb,2,25-Mar,16:13,pred-,0.101,1,599,7,
+AL,ALF2_1O2O.2.11,M,ALF2_1O2O,2,pred+/dif,pred+/AH,pred+,AH,10-Jun,1,27-Jul,15:30,pred+,0.084,1,442,2,
+AL,ALF2_1O2O.2.11,M,ALF2_1O2O,2,pred+/dif,pred+/AH,pred+,AH,10-Jun,2,28-Jul,15:30,pred-,0.084,1,35,24,
+AL,ALF2_1O2O.2.9,M,ALF2_1O2O,2,pred+/dif,pred+/AH,pred+,AH,10-Jun,1,27-Jul,15:18,pred+,0.094,1,42,2,didn't eat 7/28
+AL,ALF2_1O2O.2.9,M,ALF2_1O2O,2,pred+/dif,pred+/AH,pred+,AH,10-Jun,2,29-Jul,16:06,pred-,0.094,2,86,7,
+AL,ALF2_1O2O.3.8,M,ALF2_1O2O,3,pred+/dif,pred+/AH,pred+,AH,5-Jul,1,20-Aug,15:50,pred-,0.135,1,90,12,mostly bottom pecks
+AL,ALF2_1O2O.3.8,M,ALF2_1O2O,3,pred+/dif,pred+/AH,pred+,AH,5-Jul,2,21-Aug,16:09,pred+,0.135,1,329,1,
+AL,ALF2_1O3O.4.6,M,ALF2_1O3O,4,pred+/dif,pred+/AH,pred+,AH,3-Apr,1,19-May,14:49,pred+,0.073,1,26,7,top to bottom
+AL,ALF2_1O3O.4.6,M,ALF2_1O3O,4,pred+/dif,pred+/AH,pred+,AH,3-Apr,2,20-May,17:18,pred-,0.073,1,40,3,
+AL,ALF2_1O3O.6.2,M,ALF2_1O3O,6,pred+/dif,pred+/AH,pred+,AH,18-May,1,11-Jul,14:57,pred-,0.116,1,75,80,weight 15 days after assay
+AL,ALF2_1O3O.6.2,M,ALF2_1O3O,6,pred+/dif,pred+/AH,pred+,AH,18-May,2,13-Jul,14:19,pred+,0.116,2,11,3,didn't eat 7/12 very still sitting at top of tank
+AL,ALF2_1O3Y.1.1,M,ALF2_1O3Y,1,pred+/dif,pred+/AH,pred+,AH,22-Dec,1,7-Feb,16:25,pred+,0.083,2,106,2,redone from 2/6
+AL,ALF2_1O3Y.1.1,M,ALF2_1O3Y,1,pred+/dif,pred+/AH,pred+,AH,22-Dec,2,8-Feb,15:55,pred-,0.083,1,21,8,
+AL,ALF2_1O3Y.3.14,M,ALF2_1O3Y,3,pred+/dif,pred+/AH,pred+,AH,2-Jul,1,17-Aug,15:07,pred+,0.094,1,278,1,
+AL,ALF2_1O3Y.3.14,M,ALF2_1O3Y,3,pred+/dif,pred+/AH,pred+,AH,2-Jul,2,19-Aug,16:17,pred-,0.094,2,77,1,didn't eat 8/18
+AL,ALF2_1P2Y.2.9,M,ALF2_1P2Y,2,pred+/dif,pred+/AH,pred+,AH,28-Jun,1,15-Aug,14:57,pred-,0.109,3,432,3,"didn't eat 8/13, /14"
+AL,ALF2_1P2Y.2.9,M,ALF2_1P2Y,2,pred+/dif,pred+/AH,pred+,AH,28-Jun,2,16-Aug,15:33,pred+,0.109,1,164,5,this may be a miswritted ID - grwoth log 1P3Y.2.9
+AL,ALF2_1P4G.3.5,M,ALF2_1P4G,3,pred+/dif,pred+/AH,pred+,AH,9-Aug,1,24-Sep,13:50,pred+,0.097,1,37,15,
+AL,ALF2_1P4G.3.5,M,ALF2_1P4G,3,pred+/dif,pred+/AH,pred+,AH,9-Aug,2,25-Sep,15:10,pred-,0.097,1,85,10,
+AL,ALF2_1P4G.3.6,M,ALF2_1P4G,3,pred+/dif,pred+/AH,pred+,AH,9-Aug,1,24-Sep,13:37,pred-,0.118,1,346,3,didn't eat 9/25
+AL,ALF2_1P4G.3.6,M,ALF2_1P4G,3,pred+/dif,pred+/AH,pred+,AH,9-Aug,2,26-Sep,14:00,pred+,0.118,2,255,2,doulbe fed in morning
+AL,ALF2_3G4G.2.6,M,ALF2_3G4G,2,pred+/dif,pred+/AH,pred+,AH,22-Feb,2,10-Apr,16:56,pred-,0.117,1,50,31,
+AL,ALF2_3G4G.2.6,M,ALF2_3G4G,2,pred+/dif,pred+/AH,pred+,AH,22-Feb,1,9-Apr,17:07,pred+,0.117,1,337,1,
+AL,ALF2_1G3P.5.6,F,ALF2_1G3P,5,pred+/same,pred+/AL,pred+,AL,11-Mar,1,27-Apr,15:08,pred-,0.11,1,61,23,
+AL,ALF2_1G3P.5.6,F,ALF2_1G3P,5,pred+/same,pred+/AL,pred+,AL,11-Mar,2,30-Apr,15:00,pred+,0.11,3,345,6,
+AL,ALF2_1G3P.6.2,F,ALF2_1G3P,6,pred+/same,pred+/AL,pred+,AL,31-Mar,1,16-May,10:27,pred-,0.084,1,91,16,
+AL,ALF2_1G3P.6.2,F,ALF2_1G3P,6,pred+/same,pred+/AL,pred+,AL,31-Mar,2,19-May,NA,pred+,0.084,3,NA,NA,fish kind of tilted on 5/17
+AL,ALF2_1O2G.2.4,F,ALF2_1O2G,2,pred+/same,pred+/AL,pred+,AL,28-Feb,1,17-Apr,16:40,pred+,0.085,3,190,7,
+AL,ALF2_1O2G.2.4,F,ALF2_1O2G,2,pred+/same,pred+/AL,pred+,AL,28-Feb,2,19-Apr,15:26,pred-,0.085,2,470,3,middle of water column 
+AL,ALF2_1O2G.4.5,F,ALF2_1O2G,4,pred+/same,pred+/AL,pred+,AL,23-Apr,1,8-Jun,16:30,pred-,0.093,1,84,1,
+AL,ALF2_1O2G.4.5,F,ALF2_1O2G,4,pred+/same,pred+/AL,pred+,AL,23-Apr,2,9-Jun,15:15,pred+,0.093,1,126,1,
+AL,ALF2_1O2O.3.6,F,ALF2_1O2O,3,pred+/same,pred+/AL,pred+,AL,5-Jul,1,22-Aug,14:27,pred+,0.155,3,432,22,"weight 14 days after assay; didn't eat 8/20, 8/21"
+AL,ALF2_1O2O.3.6,F,ALF2_1O2O,3,pred+/same,pred+/AL,pred+,AL,5-Jul,2,25-Aug,15:14,pred-,0.155,3,12,56,"didn't eat 8/23, 8/24"
+AL,ALF2_1O3O.2.4,F,ALF2_1O3O,2,pred+/same,pred+/AL,pred+,AL,10-Feb,1,29-Mar,15:15,pred+,0.094,1,73,30,
+AL,ALF2_1O3O.2.4,F,ALF2_1O3O,2,pred+/same,pred+/AL,pred+,AL,10-Feb,2,30-Mar,16:00,pred-,0.094,1,80,10,only day 1 videos 
+AL,ALF2_1O3O.4.5,F,ALF2_1O3O,4,pred+/same,pred+/AL,pred+,AL,3-Apr,1,19-May,14:44,pred+,0.014,1,34,47,bottom;top;bottom
+AL,ALF2_1O3O.4.5,F,ALF2_1O3O,4,pred+/same,pred+/AL,pred+,AL,3-Apr,2,20-May,17:23,pred-,0.014,1,105,4,"data sheet said pred-/same, but the growth log shows pred+/same "
+AL,ALF2_1O3O.6.1,F,ALF2_1O3O,6,pred+/same,pred+/AL,pred+,AL,26-May,1,11-Jul,15:02,pred+,0.118,1,41,22,first 7 pecks at bottom
+AL,ALF2_1O3O.6.1,F,ALF2_1O3O,6,pred+/same,pred+/AL,pred+,AL,26-May,2,12-Jul,14:08,pred-,0.118,1,356,2,
+AL,ALF2_1O3Y.3.10,F,ALF2_1O3Y,3,pred+/same,pred+/AL,pred+,AL,2-Jul,1,17-Aug,14:29,pred-,0.127,1,244,1,
+AL,ALF2_1O3Y.3.10,F,ALF2_1O3Y,3,pred+/same,pred+/AL,pred+,AL,2-Jul,2,19-Aug,15:58,pred+,0.127,2,221,9,
+AL,ALF2_1P2Y.2.7,F,ALF2_1P2Y,2,pred+/same,pred+/AL,pred+,AL,28-Jun,1,15-Aug,14:00,pred+,0.138,3,71,8,"didn't eat 8/13, 8/14"
+AL,ALF2_1P2Y.2.7,F,ALF2_1P2Y,2,pred+/same,pred+/AL,pred+,AL,28-Jun,2,16-Aug,15:27,pred-,0.138,1,76,43,
+AL,ALF2_1P3G.3.6,F,ALF2_1P3G,3,pred+/same,pred+/AL,pred+,AL,23-Mar,1,11-May,15:24,pred+,0.11,3,19,5,
+AL,ALF2_1P3G.3.6,F,ALF2_1P3G,3,pred+/same,pred+/AL,pred+,AL,23-Mar,2,12-May,16:49,pred-,0.11,1,43,3,
+AL,ALF2_1P3G.4.5,F,ALF2_1P3G,4,pred+/same,pred+/AL,pred+,AL,21-Apr,1,8-Jun,16:27,pred+,0.093,1,24,25,
+AL,ALF2_1P3G.4.5,F,ALF2_1P3G,4,pred+/same,pred+/AL,pred+,AL,21-Apr,2,9-Jun,14:55,pred-,0.093,1,40,7,
+AL,ALF2_1P4G.2.4,F,ALF2_1P4G,2,pred+/same,pred+/AL,pred+,AL,13-Jul,1,28-Aug,15:49,pred-,0.097,1,99,43,
+AL,ALF2_1P4G.2.4,F,ALF2_1P4G,2,pred+/same,pred+/AL,pred+,AL,13-Jul,2,30-Aug,16:59,pred+,0.097,2,92,18,didn't eat 8/29
+AL,ALF2_1P4G.3.3,F,ALF2_1P4G,3,pred+/same,pred+/AL,pred+,AL,9-Aug,1,24-Sep,13:45,pred+,0.156,1,147,78,started eating at bottom
+AL,ALF2_1P4G.3.3,F,ALF2_1P4G,3,pred+/same,pred+/AL,pred+,AL,9-Aug,2,25-Sep,15:45,pred-,0.156,1,184,64,
+AL,ALF2_1P4G.3.4,F,ALF2_1P4G,3,pred+/same,pred+/AL,pred+,AL,9-Aug,1,NA,NA,pred-,0.146,3,600,0,"didn't eat 9/24, 9/25, 9/26"
+AL,ALF2_1P4G.3.4,F,ALF2_1P4G,3,pred+/same,pred+/AL,pred+,AL,9-Aug,2,NA,NA,pred+,0.146,NA,NA,NA,not tested
+AL,ALF2_1P4O.1.3,F,ALF2_1P4O,1,pred+/same,pred+/AL,pred+,AL,28-Dec,1,12-Feb,14:56,pred+,0.091,1,76,84,
+AL,ALF2_1P4O.1.3,F,ALF2_1P4O,1,pred+/same,pred+/AL,pred+,AL,28-Dec,2,13-Feb,14:50,pred-,0.091,1,100,3,
+AL,ALF2_1P4P.3.3,F,ALF2_1P4P,3,pred+/same,pred+/AL,pred+,AL,5-Feb,1,24-Mar,16:43,pred+,0.16,1,154,17,ate from bottom
+AL,ALF2_1P4P.3.3,F,ALF2_1P4P,3,pred+/same,pred+/AL,pred+,AL,5-Feb,2,25-Mar,16:45,pred-,0.16,1,97,2,weight 14 days after assay
+AL,ALF2_3G4G.1.4,F,ALF2_3G4G,1,pred+/same,pred+/AL,pred+,AL,22-Jan,1,12-Mar,NA,pred-,0.112,3,600,0,didn't eat 3x
+AL,ALF2_3G4G.1.4,F,ALF2_3G4G,1,pred+/same,pred+/AL,pred+,AL,22-Jan,2,NA,NA,pred+,0.112,NA,NA,NA,not tested
+AL,ALF2_3G4G.4.5,F,ALF2_3G4G,4,pred+/same,pred+/AL,pred+,AL,15-Apr,1,31-May,15:10,pred+,0.096,1,366,1,
+AL,ALF2_3G4G.4.5,F,ALF2_3G4G,4,pred+/same,pred+/AL,pred+,AL,15-Apr,2,1-Jun,18:18,pred-,0.096,1,322,2,
+AL,ALF2_1G3O.2.5,M,ALF2_1G3O,2,pred+/same,pred+/AL,pred+,AL,16-Jul,1,31-Aug,14:15,pred+,0.101,1,408,3,"all middle, may have pecked earlier but not certain"
+AL,ALF2_1G3O.2.5,M,ALF2_1G3O,2,pred+/same,pred+/AL,pred+,AL,16-Jul,2,1-Sep,17:23,pred-,0.101,1,572,12,
+AL,ALF2_1G3P.4.3,M,ALF2_1G3P,4,pred+/same,pred+/AL,pred+,AL,13-Feb,1,1-Apr,15:00,pred-,0.105,1,124,43,frantic swimming 
+AL,ALF2_1G3P.4.3,M,ALF2_1G3P,4,pred+/same,pred+/AL,pred+,AL,13-Feb,2,2-Apr,15:50,pred+,0.105,1,16,34,
+AL,ALF2_1G3Y.2.4,M,ALF2_1G3Y,2,pred+/same,pred+/AL,pred+,AL,8-Feb,1,27-Mar,15:15,pred-,0.076,1,47,53,
+AL,ALF2_1G3Y.2.4,M,ALF2_1G3Y,2,pred+/same,pred+/AL,pred+,AL,8-Feb,2,28-Mar,15:55,pred+,0.076,1,23,5,
+AL,ALF2_1O2O.1.6,M,ALF2_1O2O,1,pred+/same,pred+/AL,pred+,AL,5-Feb,1,24-Mar,16:19,pred+,0.095,1,238,9,weight 13 days after assay
+AL,ALF2_1O2O.1.6,M,ALF2_1O2O,1,pred+/same,pred+/AL,pred+,AL,5-Feb,2,25-Mar,16:29,pred-,0.095,1,44,6,
+AL,ALF2_1O2O.2.6,M,ALF2_1O2O,2,pred+/same,pred+/AL,pred+,AL,10-Jun,1,29-Jul,NA,pred+,0.083,3,600,0,didn’t eat 3x
+AL,ALF2_1O2O.2.6,M,ALF2_1O2O,2,pred+/same,pred+/AL,pred+,AL,10-Jun,2,NA,NA,pred-,0.083,NA,NA,NA,not tested
+AL,ALF2_1O2O.2.7,M,ALF2_1O2O,2,pred+/same,pred+/AL,pred+,AL,10-Jun,1,28-Jul,16:10,pred+,0.075,2,197,2,didn't eat 7/27; 7/29
+AL,ALF2_1O2O.2.7,M,ALF2_1O2O,2,pred+/same,pred+/AL,pred+,AL,10-Jun,2,30-Jul,14:29,pred-,0.075,2,59,4,
+AL,ALF2_1P2Y.2.8,M,ALF2_1P2Y,2,pred+/same,pred+/AL,pred+,AL,28-Jun,1,13-Aug,NA,pred-,0.114,3,600,0,didn't eat 3x
+AL,ALF2_1P2Y.2.8,M,ALF2_1P2Y,2,pred+/same,pred+/AL,pred+,AL,28-Jun,2,NA,NA,pred+,0.114,NA,NA,NA,not tested
+AL,ALF2_1P4G.2.5,M,ALF2_1P4G,2,pred+/same,pred+/AL,pred+,AL,13-Jul,1,28-Aug,16:19,pred+,0.098,1,126,23,
+AL,ALF2_1P4G.2.5,M,ALF2_1P4G,2,pred+/same,pred+/AL,pred+,AL,13-Jul,2,29-Aug,15:41,pred-,0.098,1,583,2,
+AL,ALF2_1P4O.4.3,M,ALF2_1P4O,4,pred+/same,pred+/AL,pred+,AL,20-Apr,1,6-Jun,17:45,pred+,0.136,2,207,3,
+AL,ALF2_1P4O.4.3,M,ALF2_1P4O,4,pred+/same,pred+/AL,pred+,AL,20-Apr,2,7-Jun,14:51,pred-,0.136,1,83,4,
+AL,ALF2_1P4O.5.2,M,ALF2_1P4O,5,pred+/same,pred+/AL,pred+,AL,18-May,1,4-Jul,14:59,pred-,0.083,2,555,19,all at bottom
+AL,ALF2_1P4O.5.2,M,ALF2_1P4O,5,pred+/same,pred+/AL,pred+,AL,18-May,2,5-Jul,17:07,pred+,0.083,1,313,16,all at bottom
+AL,ALF2_1P4O.6.6,M,ALF2_1P4O,6,pred+/same,pred+/AL,pred+,AL,12-Jul,1,27-Aug,15:39,pred+,0.085,1,82,10,
+AL,ALF2_1P4O.6.6,M,ALF2_1P4O,6,pred+/same,pred+/AL,pred+,AL,12-Jul,2,28-Aug,15:15,pred-,0.085,1,16,9,
+AL,ALF2_1P4P.2.3,M,ALF2_1P4P,2,pred+/same,pred+/AL,pred+,AL,11-Jan,1,26-Feb,16:25,pred+,0.106,1,21,8,
+AL,ALF2_1P4P.2.3,M,ALF2_1P4P,2,pred+/same,pred+/AL,pred+,AL,11-Jan,2,27-Feb,15:50,pred-,0.106,1,63,3,
+AL,ALF2_3G4G.3.7,M,ALF2_3G4G,3,pred+/same,pred+/AL,pred+,AL,19-Mar,1,4-May,16:52,pred-,0.105,1,98,24,
+AL,ALF2_3G4G.3.7,M,ALF2_3G4G,3,pred+/same,pred+/AL,pred+,AL,19-Mar,2,5-May,15:54,pred+,0.105,1,165,22,
+AL,ALF2_3G4G.3.8,M,ALF2_3G4G,3,pred+/same,pred+/AL,pred+,AL,19-Mar,1,5-May,NA,pred+,0.098,2,335,7,
+AL,ALF2_3G4G.3.8,M,ALF2_3G4G,3,pred+/same,pred+/AL,pred+,AL,19-Mar,2,7-May,NA,pred-,0.098,2,18,4,
+AL,ALF2_3G4G.4.4,M,ALF2_3G4G,4,pred+/same,pred+/AL,pred+,AL,15-Apr,1,31-May,14:20,pred-,0.092,1,31,7,
+AL,ALF2_3G4G.4.4,M,ALF2_3G4G,4,pred+/same,pred+/AL,pred+,AL,15-Apr,2,1-Jun,18:25,pred+,0.092,1,9,7,

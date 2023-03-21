@@ -1,0 +1,771 @@
+---
+title: "Guppy Foraging Mansucript Data Analysis"
+author: "Lauren E Johnson"
+date: "06/1/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+#library(learn.plasticity)
+library(tidyverse)
+library(MASS)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+**Model selection function:** Perform model selection on a specified full model (LM, LMM, GLM, GLMM) by calculating the AICs and producing a table of the best models within a given deltaAIC. It also gives the final/reduced model as the model, within those, that has the most parameters and lowest AIC. Model selection is done sequentially using function MuMIn::dredge.
+```{r}
+model_selection <- function (model, delta = 2){
+
+  # Model selection
+  AICtable_full <- MuMIn::dredge(model)
+
+  top_models_index <- which(AICtable_full[,'delta'] <= delta)
+  AICtable <- AICtable_full[top_models_index,]
+
+  model_list <-MuMIn::get.models(AICtable, subset = delta <= delta)
+
+  final_model_index <- which.max(unlist(lapply(lapply(model_list, coefficients), length)))
+
+  final_model <- model_list[[final_model_index]]
+
+  return(list(AIC_table = AICtable,
+              final_model = final_model))
+}
+
+```
+
+Import data:  
+```{r}
+#make_forage()
+load(file = paste0(here::here('data'),'/data_forage.Rda'))
+
+kable(head(data_forage))
+```
+
+Remove AHF2_1O3P.1.3 and AHF2_1O3P.1.4 because they were assessed at 76 and 77 days old
+```{r}
+
+data_forage <- data_forage[!data_forage$ID =="AHF2_1O3P.1.3",]
+
+data_forage <- data_forage[!data_forage$ID =="AHF2_1O3P.1.4",]
+
+#data_forage <- data_forage[data_forage$ID =="AHF2_1O3P.1.3",]
+
+#data_forage <- data_forage[data_forage$ID =="AHF2_1O3P.1.4",]
+
+#data_forage %>%  filter(ID=='AHF2_1O3P.1.3' | ID=='AHF2_1O3P.1.4')
+
+# THis isn't working, I'll just manually delete these guys!
+```
+
+Ben Bolker (creater of LME4) recommends using glmmTMB instead of lme4::glmer.nb for negative binomial GLMMs. Nevertheless, he said that is smart to check model parameters with different implementations/algorithms to make sure the answers are consistent - he calls it the gold standard for addressing convergence warnings, so that is what we are going to do!
+```{r}
+# data_f <- data_forage %>%
+#   filter(Sex == 'F') %>%
+#   na.omit
+# 
+# library(lme4)
+# m1 <- glmer.nb(Attempts ~ (Population + Pred + Tutor_pop + Water)^2 + (1|ID) + (1|Mom_ID), data = data_f,  na.action = "na.fail", family = poisson(), control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=100000)))
+# # Fails to converge, but outpute suggests that it could be false +
+# 
+# library(glmmTMB)
+# m2 <- glmmTMB(Attempts ~ (Population + Pred + Tutor_pop + Water)^2 + (1|ID) + (1|Mom_ID), na.action = "na.fail", family = 'nbinom2', data = data)
+# 
+# library(ggplot2)
+# library(dotwhisker)
+# library(broom.mixed) 
+# dwplot(list(glmer.nb=model1,glmmTMB=model),effect="fixed") + theme_bw() +
+#     geom_vline(xintercept=0,lty=2)
+
+```
+Coefficients are similar, so either either output could be used. But let's continue with the glmmTMB since Bolker recommends that...
+
+#### **Sibling Summary**
+```{r}
+sibs <- table(data_forage$Mom_ID)
+sibs <- sibs/2 #accounting for fact that there are 2 entries for each individual 
+sibs
+
+kable(sibs)
+library(ggplot2)
+sibplot <- ggplot(data_forage, aes(x=(Mom_ID), fill = Pred_Tutor)) +
+    geom_bar() + theme(axis.text.x = element_text(angle = 90))  # going to renumber the axis tickmarks in illustrator (needs to be half )
+
+sibplot
+```
+
+#### **Foraging Attempts Analyses**  
+
+##### **Female Foraging Attempts**  
+
+1. Subset female data  
+```{r}
+data <- data_forage %>% filter(Sex == 'F') %>% na.omit
+
+#sample size
+n_distinct(data$ID)
+```
+
+2. Create generalized linear mixed model with all interactions
+```{r message=FALSE, warning=FALSE}
+library(glmmTMB)
+model_pecks <- glmmTMB(Attempts ~ (Population + Pred + Tutor_pop + Water)^2 + (1|ID) + (1|Mom_ID), na.action = "na.fail", family = 'nbinom2', data = data)
+```
+
+3. Run model selection (Andres's model selection function does not work with the glmmTMB, so need to do model selection manually by look at the AIC_table)
+```{r}
+mp <- glmmTMB(Attempts ~ Population + Pred + Tutor_pop + Water + Population:Pred + Population:Water + Pred:Water + Tutor_pop:Water + (1|ID) + (1|Mom_ID), na.action = "na.fail", family = 'nbinom2', data = data)
+```
+
+```{r}
+dotwhisker::dwplot(mp, effects = "fixed") + geom_vline(xintercept=0,lty=2) + xlab("Coefficient")
+```
+4. Summary of final **generalized linear mixed model** for female foraging attempts
+
+```{r}
+a1 <- car::Anova(mp, type = 'III')
+
+kable(a1)
+kable(summary(mp)$coefficients)
+```
+
+##### **Male Foraging Attempts**  
+
+1. Subset male data
+```{r}
+data2 <- data_forage %>% filter(Sex == 'M') %>% na.omit
+n_distinct(data2$ID)
+```
+
+2. Create generalized linear mixed model with all interactions
+```{r}
+model_pecks2 <- glmmTMB(Attempts ~ (Population + Pred + Tutor_pop + Water)^2 + (1|ID) + (1|Mom_ID), na.action = "na.fail", family = 'nbinom2', data = data2)
+```
+
+3. Run model selection (Andres's model selection function does not work with the glmmTMB, so need to do model selection manually by look at the AIC_table)
+```{r}
+mp2 <- glmmTMB(Attempts ~ Population + Tutor_pop + Water + Population:Water + Tutor_pop:Water + (1|ID) + (1|Mom_ID), na.action = "na.fail", family = 'nbinom2', data = data2)
+```
+
+```{r}
+dotwhisker::dwplot(mp2, effects = "fixed") + geom_vline(xintercept=0,lty=2)
+```
+
+4. Summary of final **generalized linear mixed model** for male foraging attempts
+
+```{r}
+a2 <- car::Anova(mp2, type = 'III')
+
+kable(a2)
+kable(summary(mp2)$coefficients)
+```
+
+Note that it is important to remove `NA`s (with `na.omit`) and set `na.action = "na.fail"` so that the AIC works with models that have the exact same number of datapoints.
+
+Now we can use our home-made function `model_selection`.
+
+#### **Latency Analyses**
+
+##### **Female Latency**  
+
+1. Subset female data  
+```{r}
+data <- data_forage %>% filter(Sex == 'F') %>% na.omit
+```
+
+2. Create Cox proportional hazards model with all interactions  
+```{r message=FALSE, warning=FALSE}
+library(coxme)
+
+ml1 <- coxme(Surv(Latency, event = event) ~ (Population + Pred + Tutor_pop + Water)^2 + (1|ID) + (1|Mom_ID), data = data, na.action = 'na.fail')
+```
+
+3. Run model selection  
+```{r}
+models_ml1 <- model_selection(ml1)
+
+kable(models_ml1$AIC_table)
+```
+
+```{r}
+dotwhisker::dwplot(models_ml1$final_model, effects = "fixed") + geom_vline(xintercept=0,lty=2) + xlab("Coefficient")
+```
+
+4. Summary of final **cox proportional hazards mixed model summary** for female foraging latency  
+
+```{r}
+anova <- car::Anova(models_ml1$final_model, type = 'III')
+summary(models_ml1$final_model)
+
+kable(anova)
+```
+
+##### **Male Latency**  
+
+1. Subset male data  
+```{r}
+data2 <- data_forage %>% filter(Sex == 'M') %>% na.omit
+```
+
+2. Create Cox proportional hazards model with all interactions  
+```{r}
+ml2 <- coxme(Surv(Latency, event = event) ~ (Population + Pred + Tutor_pop + Water)^2 + (1|ID) + (1|Mom_ID), data = data2, na.action = 'na.fail')
+```
+
+3. Run model selection  
+```{r}
+models_ml2 <- model_selection(ml2)
+
+kable(models_ml2$AIC_table)
+```
+
+```{r}
+dotwhisker::dwplot(models_ml2$final_model, effects = "fixed") + geom_vline(xintercept=0,lty=2) + xlab("Coefficient")
+
+```
+
+4. Summary of final **cox proportional hazards mixed model summary** for male foraging latency  
+```{r}
+anova2 <- car::Anova(models_ml2$final_model, type = 'III')
+summary(models_ml2$final_model)
+
+kable(anova2)
+```
+
+
+### **Post-hoc analyses**
+
+Male Latency
+```{r}
+library(emmeans)
+
+ML <- coxph(models_ml2$final_model$formulaList$fixed, data = data2, na.action = 'na.fail')
+
+emmML1 <- emmeans(ML, specs = pairwise ~ Population:Pred)
+emmML2 <- emmeans(ML, specs = pairwise ~ Population|Pred)
+emmML3 <- emmeans(ML, specs = pairwise ~ Pred|Population)
+
+emmML1$emmeans
+emmML2$emmeans
+emmML3$emmeans
+```
+
+Male Foraging Attempts:
+```{r}
+emmMF1 <- emmeans(model_pecks2, ~Tutor_pop:Water) %>% pairs() %>% test(by = NULL, adjust = "sidak")
+emmMF2 <- emmeans(model_pecks2, ~Tutor_pop|Water) %>% pairs() %>% test(by = NULL, adjust = "sidak")
+emmMF3 <- emmeans(model_pecks2, ~Water|Tutor_pop)%>% pairs() %>% test(by = NULL, adjust = "sidak")
+
+emmMF1$emmeans
+emmMF2$emmeans
+emmMF3$emmeans
+
+emmMF1
+emmMF2
+emmMF3
+```
+
+Female Foraging Attempts:
+```{r}
+emmFF1 <- emmeans(model_pecks, specs = pairwise~Water:Pred)
+emmFF2 <- emmeans(model_pecks, specs = pairwise~Water|Pred)
+emmFF3 <- emmeans(model_pecks, ~Pred|Water) %>% pairs() %>% test(by = NULL, adjust = "sidak")
+
+emmFF1$emmeans
+emmFF2$emmeans
+emmFF3$emmeans
+emmFF3
+```
+
+
+#### **Figures**  
+
+```{r message=FALSE, warning=FALSE, echo=FALSE}
+library(survival)
+library(survminer)
+library(survMisc)
+```
+
+##### **Female Latency**  
+  
+Only **population** origin had a significant effect on female latency to forage. However, tutor population and the interaction between population and tutor population were included in the 'best' model.  
+  
+**Option 1**  
+```{r, echo=FALSE}
+# subsetting Females 
+datasurv <- data_forage %>% filter(Sex == 'F') %>% na.omit
+
+# create survival curve
+fit <- survfit(Surv(Latency, event = event) ~ (Population + Tutor_pop), data = datasurv, na.action = "na.fail")
+
+# plot survival curve
+ggsurvplot(fit, conf.int = TRUE, fun = 'event',
+           palette = c('lightskyblue', 'lightskyblue', 
+                       'coral', 'coral'),
+           censor = F,
+           linetype= c('dotted', 'solid', 'dotted', 'solid'),
+           ylab = 'Proportion of females that have foraged',
+           xlab = 'Time (s)',
+           legend = c(.8,0.3),
+           legend.title = "Population/Tutor Population",
+           legend.labs = c("HP/HP", "HP/LP", "LP/HP", "LP/LP"))
+
+```
+
+**Option 2** Currently in manuscript version  
+```{r echo=FALSE}
+# SAVED PDF
+
+# create survival curve
+fit2 <- survfit(Surv(Latency, event = event) ~ Population, data = datasurv, na.action = "na.fail")
+
+# plot survival curve
+ggsurvplot(fit2, conf.int = TRUE, fun = 'event',
+           palette = c('black', 'grey'),
+           censor = F,
+           ylab = 'Proportion of females that have foraged',
+           xlab = 'Time (s)',
+           legend = c(.8,0.3),
+           legend.title = "Source Population", 
+           legend.labs = c("HP","LP"))
+
+
+
+
+fig1 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Latency, x = Population)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig1
+
+
+
+```
+
+**Option 3**  
+```{r echo=FALSE}
+library(ggplot2)
+dataf <- data_forage %>%
+  filter(Sex == 'F') %>%
+  na.omit
+
+fig1 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Latency, x = Population, group = Tutor_pop, col = Tutor_pop)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig1
+```
+  
+**Option 4**  
+```{r echo=FALSE}
+
+# SAVED PDF
+fig1 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Latency, x = Tutor_pop, group = Population, col = Population)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig1
+
+```
+
+##### **Male Latency**  
+  
+**Predation** and there interaction between **Predation** and **Population** origin had a significant effect on male latency to forage. 
+  
+**Option 1** Currently in manuscript version  
+```{r echo=FALSE}
+# subsetting Males
+datasurv2 <- data_forage %>%  filter(Sex == 'M') %>%  na.omit
+
+# create survival curve
+fit2 <- survfit(Surv(Latency, event = event) ~ Population + Pred, data = datasurv2, na.action = "na.fail")
+
+# plot survival curve
+# SAVED PLOT
+ggsurvplot(fit2, conf.int = TRUE, fun = 'event',
+           palette = c('black', 'black', 
+                       'grey', 'grey'),
+           censor = F,
+           linetype= c('dotted', 'solid', 'dotted', 'solid'),
+           ylab = 'Proportion of males that have foraged',
+           xlab = 'Time (s)',
+           legend = c(.8,0.3),
+           legend.title = "Population/Rearing Water",
+           legend.labs = c("HP/pred-", "HP/pred+", "LP/pred-",
+                           "LP/pred+"))
+```
+
+**Option 2**  
+```{r echo=FALSE}
+fit3<- survfit(Surv(Latency, event = event)~Pred, data = datasurv2, na.action = 'na.fail')
+
+ggsurvplot(fit3, conf.int = T, fun = 'event')
+```
+
+**Option 3**  
+```{r echo=FALSE}
+fit4<- survfit(Surv(Latency, event = event)~Population, data = datasurv2, na.action = 'na.fail')
+
+ggsurvplot(fit4, conf.int = T, fun = 'event')
+```
+
+**Option 4**  
+```{r echo=FALSE}
+datam <- data_forage %>%
+  filter(Sex == 'M') %>%
+  na.omit
+
+#SAVED PDF
+fig1 <- datam %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male")) %>%
+  ggplot(aes(y = Latency, x = Pred, group = Population, col = Population)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig1
+
+```
+
+**Option 5**  
+```{r echo=FALSE}
+library(ggplot2)
+
+
+fig1 <- datam %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  ggplot(aes(y = Latency, x = Population, group = Pred, col = Pred)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig1
+
+```
+
+**Option 6**  
+This includes all the variables for latency that are in the model, but it is just so hard to comprehend, that I think we go with the simplified version above that shows the significant relationships  
+```{r echo=FALSE}
+library(ggplot2)
+datam <- data_forage %>%
+  filter(Sex == 'M') %>%
+  na.omit
+
+
+fig2 <- datam %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Pred, Tutor_pop) %>%
+  ggplot(aes(y = Latency, x = Water, group = Pred_Tutor, col = Pred, linetype = Tutor_pop)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+  facet_grid(~Population) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    labs(col = "Raising Environment", linetype ="Tutor Origin") +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig2
+
+```
+
+##### **Female Attempts**  
+  
+**Population**, **Tutor Population**, and **Test Water**, and the interaction between **Rearing Water** and **Test Water** had significant effects on female foraging attempts.
+
+
+```{r}
+fig1 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Attempts, x = Population)) +
+    stat_summary(fun = mean, geom = "point") +
+    #stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12)) 
+
+fig1
+
+fig2 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  ggplot(aes(y = Attempts, x = Tutor_pop)) +
+    stat_summary(fun = mean, geom = "point") +
+    #stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig2
+
+fig3 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  ggplot(aes(y = Attempts, x = Water)) +
+    stat_summary(fun = mean, geom = "point") +
+    #stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig3
+
+fig4 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  ggplot(aes(y = Attempts, x = Water, col = Pred)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig4
+
+par(mfrow=c(2,2))
+fig1
+fig2
+fig3
+fig4
+
+```
+
+```{r}
+
+fig2 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Attempts, x = Population, group = Tutor_pop, col = Tutor_pop)) +
+    stat_summary(fun = mean, geom = "point") +
+    #stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig2
+
+fig3 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Attempts, x = Population, group = Water, col = Water)) +
+    stat_summary(fun = mean, geom = "point") +
+    #stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig3
+```
+
+
+
+**Option 1** Currently in manuscript version   
+```{r warning=FALSE, message=FALSE, echo=FALSE}
+library(ggplot2)
+dataf <- data_forage %>% filter(Sex == 'F') %>% na.omit
+fig3 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Pred) %>%
+  ggplot(aes(y = Attempts, x = Water, group = interaction(Population, Tutor_pop), col = Population, linetype = Tutor_pop)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+  #facet_grid(~Population) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    #labs(col = "Raising Environment", linetype ="Tutor Origin") +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12)) +
+  ylab('Female foraging attempts') +
+  xlab('Test water')
+
+fig3 ####save and in manuscript
+
+```
+
+**Option 2**  
+```{r echo=FALSE}
+fig <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Pred) %>%
+  ggplot(aes(y = Attempts, x = Pred, group = interaction(Population,Water), col = Population, linetype = Water)) +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1)
+
+fig
+```
+  
+**Option 3**  
+```{r echo=FALSE}
+library(ggplot2)
+dataf <- data_forage %>%
+  filter(Sex == 'F') %>%
+  na.omit
+
+
+fig3 <- dataf %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Attempts, x = Population, group = Water, col = Water)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12))
+
+fig3
+
+```
+  
+##### **Male Attempts**  
+  
+Only the interaction between **Tutor Population** and **Test Water** had significant effects on male foraging attempts.
+  
+**Option 1** Currently in manuscript version  
+```{r echo=FALSE}
+library(ggplot2)
+datam <- data_forage %>%
+  filter(Sex == 'M') %>%
+  na.omit
+
+
+fig4 <- datam %>%
+  mutate(Tutor_pop = recode(Tutor_pop, "AH" = "HP", "AL" = "LP"),
+         Population = recode(Population, "AH" = "HP", "AL" = "LP"),
+         Sex = recode(Sex, "M" = "Male", "F" = "Female")) %>%
+  group_by(Population, Tutor_pop) %>%
+  ggplot(aes(y = Attempts, x = Water, group = Tutor_pop, col = Tutor_pop)) +
+    stat_summary(fun = mean, geom = "point") +
+    stat_summary(fun = mean, geom = "line") +
+    stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.1) +
+    theme_bw() + scale_colour_grey(start = 0, end = 0.7) +
+    theme(strip.background = element_blank(),
+          strip.text.x = element_text(size = 15),             strip.text.y = element_text(size = 15),
+          axis.title.x = element_text(size = 15),
+          axis.title.y = element_text(size = 15),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12)) +
+  ylab('Male foraging attempts') +
+  xlab('Test water')
+
+fig4 #in manuscript
+
+```
